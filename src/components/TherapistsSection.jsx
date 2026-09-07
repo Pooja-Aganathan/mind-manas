@@ -1,6 +1,7 @@
 import soshinaPhoto from "../assets/therapists/soshina.png";
 import nithyaPhoto from "../assets/therapists/nithya.png";
 import raviPhoto from "../assets/therapists/ravi.png";
+
 function TherapistsSection() {
   const therapists = [
     {
@@ -27,11 +28,17 @@ function TherapistsSection() {
   ];
 
   return (
-    <section className="therapists-section">
+    <section
+      className="therapists-section"
+      id="therapists"
+    >
 
       <div className="therapists-header">
+
         <div>
-          <p className="section-label">MEET OUR THERAPISTS</p>
+          <p className="section-label">
+            MEET OUR THERAPISTS
+          </p>
 
           <h2>
             People who listen.
@@ -45,8 +52,8 @@ function TherapistsSection() {
           creating a safe, compassionate and supportive space
           for every individual.
         </p>
-      </div>
 
+      </div>
 
       <div className="therapists-grid">
 
@@ -69,13 +76,18 @@ function TherapistsSection() {
                 {therapist.qualification}
               </p>
 
-              <h3>{therapist.name}</h3>
+              <h3>
+                {therapist.name}
+              </h3>
 
               <p className="therapist-description">
                 {therapist.description}
               </p>
 
-              <button className="therapist-button">
+              <button
+                type="button"
+                className="therapist-button"
+              >
                 View Profile ↗
               </button>
 
