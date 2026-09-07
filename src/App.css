@@ -1,0 +1,6850 @@
+/* =========================
+   Hero Section
+========================= */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 80px 70px;
+  min-height: 600px;
+  background-color: #f8f6fb;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 620px;
+}
+
+.hero-tagline {
+  margin-bottom: 20px;
+  color: #6b5b95;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.hero h1 {
+  margin: 0;
+  color: #222222;
+  font-size: 58px;
+  line-height: 1.08;
+  font-weight: 700;
+}
+
+.hero h1 span {
+  color: #6b5b95;
+}
+
+.hero-description {
+  max-width: 560px;
+  margin-top: 25px;
+  color: #666666;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.hero-primary-button,
+.hero-secondary-button {
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hero-primary-button {
+  background-color: #6b5b95;
+  color: white;
+}
+
+.hero-primary-button:hover {
+  background-color: #57487d;
+}
+
+.hero-secondary-button {
+  border: 1px solid #6b5b95;
+  color: #6b5b95;
+  background-color: white;
+}
+
+.hero-secondary-button:hover {
+  background-color: #f0edf6;
+}
+
+/* Hero image */
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  border-radius: 24px;
+}
+
+/* Hero feature points */
+
+.hero-features {
+  display: flex;
+  gap: 35px;
+  margin-top: 45px;
+}
+
+.hero-feature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #eee9f8;
+  color: #6b5b95;
+  font-size: 25px;
+}
+
+.hero-feature p {
+  margin: 0;
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+
+/* =========================
+   Introduction Section
+========================= */
+
+.intro-section {
+  padding: 90px 70px;
+  background-color: white;
+}
+
+.intro-label {
+  margin-bottom: 20px;
+  color: #6b5b95;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.intro-heading {
+  flex: 1;
+}
+
+.intro-heading h2 {
+  margin: 0;
+  color: #222222;
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.intro-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.intro-text p {
+  margin: 0;
+  color: #666666;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.intro-link {
+  display: inline-block;
+  margin-top: 25px;
+  color: #6b5b95;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.intro-link:hover {
+  text-decoration: underline;
+}
+
+.intro-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 70px;
+  padding-top: 40px;
+  border-top: 1px solid #eeeeee;
+}
+
+.intro-feature span {
+  color: #6b5b95;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.intro-feature h3 {
+  margin: 15px 0 10px;
+  color: #222222;
+  font-size: 20px;
+}
+
+.intro-feature p {
+  margin: 0;
+  color: #777777;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   Navbar
+========================= */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #222222;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #444444;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #6b5b95;
+}
+
+.appointment-button {
+  text-decoration: none;
+  background-color: #6b5b95;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.appointment-button:hover {
+  background-color: #57487d;
+}
+
+
+/* =========================
+   SERVICES SECTION
+========================= */
+
+.services-section {
+  padding: 110px 70px;
+  background-color: #f8f6fb;
+}
+
+.services-header {
+  max-width: 900px;
+  margin: 0 auto 65px;
+  text-align: center;
+}
+
+.section-label {
+  margin-bottom: 18px;
+  color: #6b5b95;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.services-header h2 {
+  margin: 0;
+  color: #222222;
+  font-size: 48px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.services-intro {
+  max-width: 650px;
+  margin: 25px auto 0;
+  color: #666666;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   SERVICES GRID
+========================= */
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+
+/* =========================
+   SERVICE CARD
+========================= */
+
+.service-card {
+  position: relative;
+  min-height: 230px;
+  padding: 30px;
+  overflow: hidden;
+
+  background-color: #ffffff;
+  border: 1px solid #e4dfeb;
+
+  transition:
+    background-color 0.35s ease,
+    border-color 0.35s ease,
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+
+/* Top-right circle */
+
+.service-card::before {
+  content: "";
+
+  position: absolute;
+  top: -45px;
+  right: -45px;
+
+  width: 140px;
+  height: 140px;
+
+  border-radius: 50%;
+
+  background-color: #eee9f8;
+
+  transition: transform 0.35s ease;
+}
+
+
+/* Card hover */
+
+.service-card:hover {
+  background-color: #6b5b95;
+  border-color: #6b5b95;
+
+  transform: translateY(-8px);
+
+  box-shadow: 0 20px 40px rgba(70, 50, 100, 0.12);
+}
+
+.service-card:hover::before {
+  transform: scale(1.8);
+}
+
+
+/* =========================
+   SERVICE NUMBER
+========================= */
+
+.service-number {
+  position: relative;
+  z-index: 2;
+
+  display: block;
+
+  text-align: center;
+
+  color: #6b5b95;
+
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+/* =========================
+   SERVICE ICON
+========================= */
+
+.service-icon {
+  position: absolute;
+
+  top: 65px;
+  left: 50%;
+
+  z-index: 2;
+
+  width: 55px;
+  height: 55px;
+
+  transform: translateX(-50%);
+}
+
+.service-icon svg {
+  width: 100%;
+  height: 100%;
+
+  fill: none;
+
+  stroke: #9faaaa;
+  stroke-width: 1.8;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.service-card:hover .service-icon svg {
+  stroke: #ffffff;
+}
+
+
+/* =========================
+   SERVICE TITLE
+========================= */
+
+.service-card h3 {
+  position: absolute;
+
+  left: 30px;
+  right: 65px;
+  bottom: 35px;
+
+  z-index: 2;
+
+  margin: 0;
+
+  color: #222222;
+
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+.service-card:hover h3 {
+  color: #ffffff;
+}
+
+
+/* =========================
+   SERVICE ARROW
+========================= */
+
+.service-arrow {
+  position: absolute;
+
+  right: 25px;
+  bottom: 25px;
+
+  z-index: 3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+
+  border: 1px solid #ddd5e8;
+  border-radius: 50%;
+
+  color: #6b5b95;
+
+  font-size: 19px;
+
+  transition: all 0.35s ease;
+}
+
+.service-card:hover .service-arrow {
+  color: #ffffff;
+
+  border-color: rgba(255, 255, 255, 0.5);
+
+  transform: rotate(45deg);
+}
+
+
+/* =========================
+   ONLINE THERAPY SECTION
+========================= */
+
+.online-therapy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  background-color: #f3eee8;
+}
+
+
+/* Left content */
+
+.online-therapy-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 90px 70px;
+}
+
+.online-therapy-content h2 {
+  margin: 0;
+
+  color: #222222;
+
+  font-size: 48px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.online-therapy-content h2 span {
+  color: #6b5b95;
+}
+
+.online-therapy-text {
+  max-width: 500px;
+
+  margin: 25px 0 0;
+
+  color: #666666;
+
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* Learn More button */
+
+.online-therapy-link {
+  width: fit-content;
+
+  margin-top: 30px;
+  padding: 0 0 8px;
+
+  border: none;
+  border-bottom: 1px solid #6b5b95;
+
+  background: none;
+
+  color: #6b5b95;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+
+  cursor: pointer;
+}
+
+.online-therapy-link:hover {
+  color: #57487d;
+}
+
+
+/* Right image */
+
+.online-therapy-image {
+  min-height: 520px;
+}
+
+.online-therapy-image-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ddd5cc;
+
+  color: #6b5b95;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+
+/* =========================
+   ONLINE THERAPY DETAILS
+========================= */
+
+.online-therapy-details {
+  grid-column: 1 / -1;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 90px 70px;
+
+  background-color: #ffffff;
+
+  text-align: center;
+}
+
+.online-details-header {
+  max-width: 900px;
+
+  margin: 0 auto;
+}
+
+.online-details-header p {
+  margin: 0 0 12px;
+
+  color: #6b5b95;
+
+  font-size: 18px;
+}
+
+.online-details-header h3 {
+  margin: 0;
+
+  color: #222222;
+
+  font-size: 30px;
+  line-height: 1.3;
+
+  letter-spacing: 1.5px;
+}
+
+
+/* Steps */
+
+.online-therapy-steps {
+  max-width: 850px;
+
+  margin: 55px auto 0;
+}
+
+.online-therapy-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.online-therapy-step p {
+  margin: 0;
+
+  color: #666666;
+
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.online-therapy-step strong {
+  color: #555555;
+}
+
+.online-step-arrow {
+  margin: 18px 0;
+
+  color: #6b5b95;
+
+  font-size: 28px;
+  line-height: 1;
+}
+
+
+/* Schedule button */
+
+.schedule-button {
+  display: inline-block;
+
+  margin-top: 45px;
+  padding: 15px 30px;
+
+  border-radius: 30px;
+
+  background-color: #6b5b95;
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.schedule-button:hover {
+  background-color: #57487d;
+
+  transform: translateY(-3px);
+}
+
+
+/* =========================
+   HOW TO GET STARTED
+========================= */
+
+.getting-started {
+  padding: 110px 70px;
+
+  background-color: #f8f6fb;
+}
+
+.getting-started-header {
+  text-align: center;
+
+  margin-bottom: 70px;
+}
+
+.getting-started-header h2 {
+  margin: 0;
+
+  color: #222222;
+
+  font-size: 48px;
+  line-height: 1.15;
+}
+
+.steps-container {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  gap: 25px;
+}
+
+.step {
+  position: relative;
+
+  min-height: 230px;
+
+  padding: 35px;
+
+  background-color: #ffffff;
+
+  border: 1px solid #e4dfeb;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.step:hover {
+  transform: translateY(-6px);
+
+  box-shadow: 0 18px 40px rgba(70, 50, 100, 0.08);
+}
+
+.step-number {
+  color: #6b5b95;
+
+  font-size: 48px;
+  font-weight: 700;
+
+  line-height: 1;
+}
+
+.step-content {
+  margin-top: 35px;
+}
+
+.step-content h3 {
+  margin: 0 0 12px;
+
+  color: #222222;
+
+  font-size: 22px;
+}
+
+.step-content p {
+  margin: 0;
+
+  color: #666666;
+
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.step-arrow {
+  position: absolute;
+
+  right: 30px;
+  bottom: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  border: 1px solid #ddd5e8;
+
+  border-radius: 50%;
+
+  color: #6b5b95;
+
+  font-size: 18px;
+
+  transition: transform 0.3s ease;
+}
+
+.step:hover .step-arrow {
+  transform: rotate(45deg);
+}
+
+
+/* =========================
+   ABOUT HERO
+========================= */
+
+.about-hero {
+  padding: 110px 70px 120px;
+
+  text-align: center;
+
+  background-color: #f8f6fb;
+}
+
+.about-hero .section-label {
+  margin-bottom: 25px;
+}
+
+.about-hero h1 {
+  margin: 0 auto;
+
+  max-width: 850px;
+
+  color: #222222;
+
+  font-size: 64px;
+  line-height: 1.1;
+
+  font-weight: 700;
+}
+
+.about-hero h1 span {
+  color: #6b5b95;
+}
+
+.about-hero > p:last-child {
+  max-width: 700px;
+
+  margin: 30px auto 0;
+
+  color: #666666;
+
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about-section {
+  padding: 110px 70px;
+
+  background-color: #ffffff;
+}
+
+.about-section-label {
+  margin-bottom: 35px;
+
+  color: #6b5b95;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+}
+
+.about-section-content {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 100px;
+
+  align-items: start;
+}
+
+.about-section-heading h2 {
+  margin: 0;
+
+  color: #222222;
+
+  font-size: 44px;
+  line-height: 1.2;
+
+  font-weight: 700;
+}
+
+.about-section-text {
+  max-width: 560px;
+}
+
+.about-section-text p {
+  margin: 0 0 25px;
+
+  color: #666666;
+
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.about-section-text p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================
+   TEAM SECTION
+========================= */
+
+.team-section {
+  padding: 110px 70px;
+
+  background-color: #ffffff;
+}
+
+.team-header {
+  max-width: 750px;
+
+  margin: 0 auto 60px;
+
+  text-align: center;
+}
+
+.team-header h2 {
+  margin: 0;
+
+  color: #222222;
+
+  font-size: 48px;
+  line-height: 1.15;
+}
+
+.team-header > p:last-child {
+  max-width: 600px;
+
+  margin: 22px auto 0;
+
+  color: #666666;
+
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.team-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 22px;
+}
+
+.team-card {
+  background-color: #f8f6fb;
+
+  border: 1px solid #e4dfeb;
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-7px);
+
+  box-shadow: 0 18px 40px rgba(70, 50, 100, 0.1);
+}
+
+.team-image {
+  height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #eee9f8;
+
+  color: #6b5b95;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.team-info {
+  position: relative;
+
+  padding: 25px 28px 30px;
+}
+
+.team-number {
+  color: #6b5b95;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.team-info h3 {
+  margin: 12px 0 7px;
+
+  color: #222222;
+
+  font-size: 22px;
+}
+
+.team-info p {
+  margin: 0;
+
+  color: #666666;
+
+  font-size: 15px;
+}
+
+
+/* =========================
+   THERAPISTS SECTION
+========================= */
+
+.therapists-section {
+  padding: 110px 70px;
+
+  background-color: #f8f6fb;
+}
+
+.therapists-header {
+  max-width: 800px;
+
+  margin: 0 auto 65px;
+
+  text-align: center;
+}
+
+.therapists-header h2 {
+  margin: 0;
+
+  color: #222222;
+
+  font-size: 48px;
+  line-height: 1.15;
+
+  font-weight: 700;
+}
+
+.therapists-header > p:last-child {
+  max-width: 650px;
+
+  margin: 20px auto 0;
+
+  color: #666666;
+
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.therapists-list {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+
+/* Each therapist */
+
+.therapist-profile {
+  display: grid;
+
+  grid-template-columns: 280px 1fr;
+
+  gap: 45px;
+
+  align-items: start;
+
+  padding: 40px;
+
+  background-color: #ffffff;
+
+  border: 1px solid #e4dfeb;
+
+  border-radius: 16px;
+}
+
+
+/* Alternate the second therapist */
+
+.therapist-profile:nth-child(even) {
+  grid-template-columns: 1fr 280px;
+}
+
+.therapist-profile:nth-child(even) .therapist-photo {
+  order: 2;
+}
+
+.therapist-profile:nth-child(even) .therapist-content {
+  order: 1;
+}
+
+
+/* Photo placeholder */
+
+.therapist-photo {
+  width: 280px;
+  height: 350px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #eee9f8;
+
+  border-radius: 14px;
+
+  color: #6b5b95;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+
+/* Therapist content */
+
+.therapist-content {
+  text-align: left;
+
+  padding-top: 5px;
+}
+
+.therapist-number {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 45px;
+  height: 45px;
+
+  margin-bottom: 18px;
+
+  border-radius: 50%;
+
+  background-color: #eee9f8;
+
+  color: #6b5b95;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.therapist-content h3 {
+  margin: 0 0 8px;
+
+  color: #222222;
+
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.therapist-qualification {
+  margin: 0 0 25px;
+
+  color: #6b5b95;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  line-height: 1.5;
+}
+
+.therapist-description {
+  margin: 0 0 18px;
+
+  color: #666666;
+
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.therapist-description:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   RESPONSIVE DESIGN
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .navbar {
+    padding: 18px 30px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .hero {
+    flex-direction: column;
+
+    padding: 60px 30px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 46px;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .intro-section,
+  .services-section,
+  .online-therapy,
+  .getting-started,
+  .about-section,
+  .therapists-section {
+    padding: 80px 30px;
+  }
+
+  .intro-content {
+    flex-direction: column;
+
+    gap: 35px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .online-therapy {
+    grid-template-columns: 1fr;
+  }
+
+  .online-therapy-content {
+    padding: 80px 30px;
+  }
+
+  .online-therapy-image {
+    min-height: 400px;
+  }
+
+  .online-therapy-image-placeholder {
+    min-height: 400px;
+  }
+
+  .about-hero {
+    padding: 80px 30px;
+  }
+
+  .about-hero h1 {
+    font-size: 50px;
+  }
+
+  .about-section-content {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .therapist-profile,
+  .therapist-profile:nth-child(even) {
+    grid-template-columns: 1fr;
+  }
+
+  .therapist-profile:nth-child(even) .therapist-photo {
+    order: 0;
+  }
+
+  .therapist-profile:nth-child(even) .therapist-content {
+    order: 0;
+  }
+
+  .therapist-photo {
+    width: 100%;
+
+    max-width: 280px;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .navbar {
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-features {
+    flex-direction: column;
+
+    gap: 20px;
+  }
+
+  .intro-section,
+  .services-section,
+  .online-therapy,
+  .getting-started,
+  .about-section,
+  .therapists-section {
+    padding: 65px 20px;
+  }
+
+  .intro-heading h2,
+  .services-header h2,
+  .online-therapy-content h2,
+  .getting-started-header h2 {
+    font-size: 36px;
+  }
+
+  .intro-features {
+    grid-template-columns: 1fr;
+
+    gap: 30px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .steps-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero {
+    padding: 70px 20px;
+  }
+
+  .about-hero h1 {
+    font-size: 42px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .therapist-profile {
+    padding: 25px;
+  }
+
+  .therapist-photo {
+    max-width: 100%;
+  }
+}
+/* =========================
+   TESTIMONIALS SECTION
+========================= */
+
+.testimonials-section {
+  padding: 110px 70px;
+  background-color: #ffffff;
+}
+
+.testimonials-header {
+  max-width: 800px;
+  margin: 0 auto 65px;
+  text-align: center;
+}
+
+.testimonials-header h2 {
+  margin: 0;
+  color: #222222;
+  font-size: 48px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  position: relative;
+  min-height: 320px;
+  padding: 35px;
+  background-color: #f8f6fb;
+  border: 1px solid #e4dfeb;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 18px 40px rgba(70, 50, 100, 0.1);
+}
+
+.testimonial-number {
+  color: #6b5b95;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.testimonial-quote {
+  margin-top: 25px;
+  color: #6b5b95;
+  font-size: 50px;
+  line-height: 0.7;
+  font-family: Georgia, serif;
+}
+
+.testimonial-text {
+  margin: 25px 0 35px;
+  color: #555555;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.testimonial-person {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.testimonial-person strong {
+  color: #222222;
+  font-size: 16px;
+}
+
+.testimonial-person span {
+  color: #777777;
+  font-size: 14px;
+}
+/* =========================
+
+/* =========================================
+   CONTACT PAGE
+========================================= */
+
+.contact-page {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fbfaf7;
+  color: #25212d;
+}
+
+
+/* =========================================
+   CONTACT HERO
+========================================= */
+
+.contact-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 1240px;
+  min-height: 350px;
+
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 65px 40px 45px;
+
+  gap: 45px;
+  background-color: #f8f6fb;
+}
+
+.contact-hero-content {
+  position: relative;
+  z-index: 2;
+
+  width: min(650px, 100%);
+}
+
+.contact-hero .section-label {
+  margin-bottom: 18px;
+}
+
+.contact-hero h1 {
+  margin: 14px 0 18px;
+
+  color: #25202f;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(48px, 5vw, 68px);
+  line-height: 1.02;
+  font-weight: 600;
+}
+
+.contact-hero h1 span {
+  color: #6b5b95;
+}
+
+.contact-hero-description {
+  max-width: 570px;
+  margin: 0;
+
+  color: #777282;
+
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   BUTTERFLY IMAGE
+========================================= */
+
+.butterfly-decoration {
+  position: relative;
+
+  width: 390px;
+  height: 280px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  background: #f7f3fa;
+  border-radius: 48% 52% 50% 46%;
+}
+
+.butterfly-image {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+  object-position: center;
+
+  position: relative;
+  z-index: 2;
+}
+
+
+/* =========================================
+   MAIN CONTACT LAYOUT
+========================================= */
+
+.contact-section {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.4fr)
+    minmax(390px, 0.9fr);
+
+  align-items: start;
+
+  width: 100%;
+  max-width: 1240px;
+
+  box-sizing: border-box;
+
+  margin: 0 auto;
+
+  padding: 5px 40px 110px;
+
+  gap: 42px;
+}
+
+.contact-left {
+  width: 100%;
+  min-width: 0;
+}
+
+
+/* =========================================
+   OFFICE CARDS
+========================================= */
+
+.office-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  width: 100%;
+
+  gap: 18px;
+}
+
+.office-card {
+  display: flex;
+  align-items: flex-start;
+
+  width: 100%;
+  min-width: 0;
+  min-height: 250px;
+
+  box-sizing: border-box;
+
+  gap: 18px;
+  padding: 27px;
+
+  border: 1px solid #e2dbea;
+  border-radius: 20px;
+
+  background-color: #ffffff;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.office-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 18px 40px rgba(70, 50, 100, 0.08);
+}
+
+.office-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 54px;
+  height: 54px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  background-color: #f0ebf7;
+}
+
+.office-icon svg {
+  width: 27px;
+  height: 27px;
+
+  fill: none;
+  stroke: #6b5b95;
+  stroke-width: 1.7;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.office-details {
+  min-width: 0;
+}
+
+.office-card h3 {
+  margin: 2px 0 13px;
+
+  color: #292331;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.office-card p {
+  margin: 0 0 18px;
+
+  color: #777282;
+
+  font-size: 12.5px;
+  line-height: 1.75;
+
+  overflow-wrap: anywhere;
+}
+
+.office-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.office-contact span {
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+  min-width: 0;
+
+  color: #595363;
+
+  font-size: 11.5px;
+  line-height: 1.4;
+
+  overflow-wrap: anywhere;
+}
+
+.office-contact svg {
+  width: 17px;
+  height: 17px;
+
+  flex-shrink: 0;
+
+  fill: none;
+  stroke: #6b5b95;
+  stroke-width: 1.7;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
+/* =========================================
+   LOCATION / MAP
+========================================= */
+
+.location-section {
+  width: 100%;
+  margin-top: 55px;
+}
+
+.location-heading h2 {
+  margin: 7px 0;
+
+  color: #27222f;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 41px;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.location-heading h2 span {
+  color: #6b5b95;
+}
+
+.location-heading > p:last-child {
+  margin: 0 0 20px;
+
+  color: #777282;
+  font-size: 14px;
+}
+
+.map-wrapper {
+  width: 100%;
+  height: 350px;
+
+  overflow: hidden;
+
+  border: 1px solid #e2dbea;
+  border-radius: 20px;
+
+  background-color: #eeeaf3;
+}
+
+.map-wrapper iframe {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  border: 0;
+}
+
+
+/* =========================================
+   CONTACT FORM
+========================================= */
+
+.contact-form-wrapper {
+  position: relative;
+
+  width: 100%;
+  min-width: 0;
+
+  box-sizing: border-box;
+
+  padding: 38px;
+
+  border: 1px solid #dfd7e9;
+  border-radius: 24px;
+
+  background-color: #f8f5fc;
+
+  overflow: hidden;
+}
+
+.contact-form-wrapper::before {
+  content: "";
+
+  position: absolute;
+
+  right: -100px;
+  bottom: -100px;
+
+  width: 230px;
+  height: 230px;
+
+  border-radius: 50%;
+
+  background-color: #eee7f6;
+}
+
+.contact-form-wrapper h2 {
+  position: relative;
+  z-index: 2;
+
+  margin: 9px 0 10px;
+
+  color: #282331;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 43px;
+  line-height: 1.08;
+  font-weight: 600;
+}
+
+.contact-form-wrapper h2 span {
+  color: #6b5b95;
+}
+
+.form-description {
+  position: relative;
+  z-index: 2;
+
+  margin: 0 0 27px;
+
+  color: #777282;
+
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   FORM FIELDS
+========================================= */
+
+.contact-form {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 17px;
+
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+
+  gap: 7px;
+  width: 100%;
+}
+
+.form-group label {
+  color: #51495e;
+
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+}
+
+
+/* =========================================
+   INPUT / SELECT / TEXTAREA
+========================================= */
+
+.input-wrapper,
+.select-wrapper,
+.textarea-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-wrapper svg,
+.select-wrapper svg,
+.textarea-wrapper svg {
+  position: absolute;
+
+  left: 15px;
+  top: 50%;
+
+  z-index: 2;
+
+  width: 17px;
+  height: 17px;
+
+  transform: translateY(-50%);
+
+  fill: none;
+  stroke: #a095b1;
+  stroke-width: 1.5;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  pointer-events: none;
+}
+
+.textarea-wrapper svg {
+  top: 19px;
+  transform: none;
+}
+
+.input-wrapper input,
+.select-wrapper select,
+.textarea-wrapper textarea {
+  display: block;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+  border: 1px solid #ddd5e7;
+  border-radius: 10px;
+
+  outline: none;
+
+  background-color: #ffffff;
+  color: #292431;
+
+  font-family: inherit;
+  font-size: 13px;
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.input-wrapper input,
+.select-wrapper select {
+  height: 50px;
+
+  padding:
+    0
+    42px
+    0
+    44px;
+}
+
+.textarea-wrapper textarea {
+  min-height: 120px;
+
+  padding:
+    15px
+    15px
+    15px
+    44px;
+
+  resize: vertical;
+}
+
+.input-wrapper input::placeholder,
+.textarea-wrapper textarea::placeholder {
+  color: #aaa4b2;
+}
+
+.input-wrapper input:focus,
+.select-wrapper select:focus,
+.textarea-wrapper textarea:focus {
+  border-color: #6b5b95;
+
+  box-shadow:
+    0 0 0 3px rgba(107, 91, 149, 0.08);
+}
+
+
+/* SELECT */
+
+.select-wrapper select {
+  appearance: none;
+  cursor: pointer;
+}
+
+.select-wrapper::after {
+  content: "⌄";
+
+  position: absolute;
+
+  top: 50%;
+  right: 15px;
+
+  transform: translateY(-55%);
+
+  color: #6b5b95;
+
+  font-size: 17px;
+
+  pointer-events: none;
+}
+
+
+/* =========================================
+   CONSENT
+========================================= */
+
+.consent {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 9px;
+
+  color: #777282;
+
+  font-size: 10.5px;
+  line-height: 1.55;
+
+  cursor: pointer;
+}
+
+.consent input {
+  width: 16px;
+  height: 16px;
+
+  margin: 1px 0 0;
+
+  flex-shrink: 0;
+
+  accent-color: #6b5b95;
+}
+
+
+/* =========================================
+   SEND BUTTON
+========================================= */
+
+.contact-submit {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  align-self: flex-start;
+
+  gap: 14px;
+
+  min-width: 175px;
+
+  padding: 14px 22px;
+
+  border: 0;
+  border-radius: 40px;
+
+  background-color: #6b5b95;
+  color: #ffffff;
+
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 10px 25px rgba(107, 91, 149, 0.18);
+
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.contact-submit:hover {
+  background-color: #594a80;
+  transform: translateY(-3px);
+}
+
+.contact-submit span {
+  font-size: 17px;
+}
+
+
+/* =========================================
+   WHATSAPP
+========================================= */
+
+.whatsapp-container {
+  position: fixed;
+
+  right: 24px;
+  bottom: 24px;
+
+  z-index: 1000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  gap: 12px;
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 14px 21px;
+
+  border: 0;
+  border-radius: 40px;
+
+  background-color: #6b5b95;
+  color: #ffffff;
+
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 12px 30px rgba(70, 50, 100, 0.2);
+
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #594a80;
+  transform: translateY(-3px);
+}
+
+.whatsapp-button svg {
+  width: 20px;
+  height: 20px;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
+/* =========================================
+   WHATSAPP POPUP
+========================================= */
+
+.whatsapp-popup {
+  position: relative;
+
+  width: 310px;
+
+  overflow: hidden;
+
+  border-radius: 16px;
+
+  background-color: #ffffff;
+
+  box-shadow:
+    0 20px 50px rgba(40, 30, 60, 0.18);
+}
+
+.whatsapp-header {
+  padding: 22px;
+
+  background-color: #6b5b95;
+
+  color: #ffffff;
+}
+
+.whatsapp-header strong {
+  display: block;
+
+  margin-bottom: 7px;
+
+  font-size: 21px;
+}
+
+.whatsapp-header p {
+  margin: 0;
+
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.whatsapp-close {
+  position: absolute;
+
+  top: 8px;
+  right: 12px;
+
+  z-index: 2;
+
+  border: 0;
+
+  background: transparent;
+
+  color: #ffffff;
+
+  font-size: 21px;
+
+  cursor: pointer;
+}
+
+.whatsapp-contact {
+  display: flex;
+  align-items: center;
+
+  gap: 13px;
+
+  padding: 20px;
+
+  color: #292431;
+  text-decoration: none;
+}
+
+.whatsapp-contact:hover {
+  background-color: #faf8fc;
+}
+
+.whatsapp-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  background-color: #eee9f8;
+}
+
+.whatsapp-icon svg {
+  width: 24px;
+  height: 24px;
+
+  fill: none;
+  stroke: #6b5b95;
+  stroke-width: 1.6;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.whatsapp-contact span {
+  display: block;
+
+  margin-bottom: 3px;
+
+  color: #9993a2;
+
+  font-size: 10px;
+}
+
+.whatsapp-contact strong {
+  display: block;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   CONTACT RESPONSIVE
+========================================= */
+
+@media (max-width: 1050px) {
+
+  .contact-section {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .contact-form-wrapper {
+    max-width: 760px;
+  }
+
+}
+
+
+@media (max-width: 900px) {
+
+  .contact-hero {
+    padding: 70px 30px 50px;
+    gap: 30px;
+  }
+
+  .contact-section {
+    padding: 5px 30px 80px;
+  }
+
+  .office-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+@media (max-width: 800px) {
+
+  .contact-hero {
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 60px 25px 45px;
+  }
+
+  .contact-hero-content {
+    width: 100%;
+  }
+
+  .contact-hero-description {
+    margin: 0 auto;
+  }
+
+  .butterfly-decoration {
+    align-self: center;
+
+    width: 330px;
+    height: 235px;
+  }
+
+  .contact-section {
+    padding: 5px 25px 80px;
+  }
+
+  .office-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .contact-hero {
+    padding: 55px 20px 35px;
+  }
+
+  .contact-hero h1 {
+    font-size: 42px;
+  }
+
+  .contact-hero-description {
+    font-size: 15px;
+  }
+
+  .contact-section {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .office-card {
+    flex-direction: column;
+
+    min-height: auto;
+
+    padding: 24px;
+  }
+
+  .contact-form-wrapper {
+    padding: 28px 20px;
+  }
+
+  .contact-form-wrapper h2 {
+    font-size: 37px;
+  }
+
+  .location-heading h2 {
+    font-size: 35px;
+  }
+
+  .map-wrapper {
+    height: 280px;
+  }
+
+  .butterfly-decoration {
+    width: 300px;
+    height: 220px;
+  }
+
+  .whatsapp-container {
+    right: 14px;
+    bottom: 14px;
+  }
+
+  .whatsapp-button {
+    padding: 13px 17px;
+  }
+
+  .whatsapp-button span {
+    font-size: 12px;
+  }
+
+  .whatsapp-popup {
+    width: calc(100vw - 28px);
+  }
+
+}
+
+/* =========================================
+   SERVICES - FINAL DESIGN
+   PNG ICONS + WHITE CARDS + PURPLE HOVER
+   ========================================= */
+
+.services-section .service-card {
+  position: relative !important;
+  min-height: 275px !important;
+  padding: 30px !important;
+  background: #ffffff !important;
+  border: 1px solid #ded9e5 !important;
+  overflow: hidden !important;
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease !important;
+}
+
+/* Remove the old pseudo-element circle */
+.services-section .service-card::before,
+.services-section .service-card::after {
+  display: none !important;
+}
+
+/* Top-right lavender circle */
+.services-section .service-card-circle {
+  position: absolute !important;
+  top: -72px !important;
+  right: -72px !important;
+  width: 145px !important;
+  height: 145px !important;
+  border-radius: 50% !important;
+  background: #eee9f8 !important;
+  z-index: 1 !important;
+}
+
+/* Icon container */
+.services-section .service-icon {
+  position: absolute !important;
+  top: 32px !important;
+  left: 50% !important;
+  width: 150px !important;
+  height: 150px !important;
+  transform: translateX(-50%) !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  background: transparent !important;
+  z-index: 3 !important;
+}
+
+/* Large PNG icon */
+.services-section .service-icon img {
+  display: block !important;
+  width: 130px !important;
+  height: 130px !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain !important;
+
+  opacity: 1 !important;
+  filter: none !important;
+
+  transition: filter 0.3s ease !important;
+}
+
+/* Title */
+.services-section .service-card h3 {
+  position: absolute !important;
+  left: 25px !important;
+  right: 62px !important;
+  bottom: 31px !important;
+
+  margin: 0 !important;
+
+  color: #111111 !important;
+  font-size: 21px !important;
+  line-height: 1.18 !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+
+  z-index: 4 !important;
+  transition: color 0.3s ease !important;
+}
+
+/* Arrow */
+.services-section .service-card .service-arrow {
+  position: absolute !important;
+  right: 21px !important;
+  bottom: 21px !important;
+
+  width: 43px !important;
+  height: 43px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  border: 1px solid #ddd7e7 !important;
+  border-radius: 50% !important;
+
+  background: transparent !important;
+  color: #75659d !important;
+  font-size: 17px !important;
+
+  z-index: 5 !important;
+
+  transition:
+    color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease !important;
+}
+
+/* Couples is NOT purple by default */
+.services-section .service-card.featured {
+  background: #ffffff !important;
+  border-color: #ded9e5 !important;
+}
+
+.services-section .service-card.featured h3 {
+  color: #111111 !important;
+}
+
+.services-section .service-card.featured .service-arrow {
+  background: transparent !important;
+  color: #75659d !important;
+  border-color: #ddd7e7 !important;
+}
+
+/* =========================================
+   HOVER - CARD + ICON + TEXT
+   ========================================= */
+
+.services-section .service-card:hover {
+  background: #75659d !important;
+  border-color: #75659d !important;
+  transform: translateY(-5px) !important;
+  box-shadow: 0 20px 40px rgba(70, 50, 100, 0.12) !important;
+}
+
+/* PNG icon becomes white */
+.services-section .service-card:hover .service-icon img {
+  filter: brightness(0) invert(1) !important;
+}
+
+/* Title becomes white */
+.services-section .service-card:hover h3,
+.services-section .service-card.featured:hover h3 {
+  color: #ffffff !important;
+}
+
+/* Arrow becomes white */
+.services-section .service-card:hover .service-arrow,
+.services-section .service-card.featured:hover .service-arrow {
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.7) !important;
+  transform: rotate(45deg) !important;
+}
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 600px) {
+  .services-section .service-card {
+    min-height: 250px !important;
+  }
+
+  .services-section .service-icon {
+    top: 28px !important;
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  .services-section .service-icon img {
+    width: 105px !important;
+    height: 105px !important;
+  }
+
+  .services-section .service-card h3 {
+    left: 18px !important;
+    right: 55px !important;
+    font-size: 18px !important;
+  }
+}
+/* =========================================
+   SERVICE ICONS - FINAL FIX
+   ========================================= */
+
+.services-section .service-icon {
+  position: absolute !important;
+  top: 32px !important;
+  left: 50% !important;
+
+  width: 160px !important;
+  height: 160px !important;
+
+  transform: translateX(-50%) !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  z-index: 3 !important;
+}
+
+.services-section .service-icon img {
+  width: 145px !important;
+  height: 145px !important;
+
+  object-fit: contain !important;
+  display: block !important;
+
+  filter: none !important;
+  mix-blend-mode: multiply !important;
+
+  transition: filter 0.3s ease !important;
+}
+
+
+/* =========================================
+   HOVER
+   ========================================= */
+
+.services-section .service-card:hover {
+  background-color: #75659d !important;
+  border-color: #75659d !important;
+}
+
+/* White icon WITHOUT white rectangle */
+.services-section .service-card:hover .service-icon img {
+  filter: invert(1) !important;
+  mix-blend-mode: screen !important;
+}
+
+/* White title */
+.services-section .service-card:hover h3 {
+  color: #ffffff !important;
+}
+
+/* White arrow */
+.services-section .service-card:hover .service-arrow {
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.7) !important;
+}
+/* =========================================
+   ONLINE THERAPY - FINAL DESIGN
+   ========================================= */
+
+.online-therapy {
+  position: relative !important;
+
+  width: 92% !important;
+  max-width: 1200px !important;
+
+  margin: 90px auto !important;
+  padding: 45px 45px 35px !important;
+
+  box-sizing: border-box !important;
+
+  display: grid !important;
+  grid-template-columns: 1.05fr 0.95fr !important;
+  column-gap: 55px !important;
+  row-gap: 25px !important;
+
+  background: #f8f5fc !important;
+
+  border-radius: 30px !important;
+
+  overflow: hidden !important;
+}
+
+
+/* =========================================
+   LEFT IMAGE
+   ========================================= */
+
+.online-therapy-left {
+  position: relative !important;
+
+  width: 100% !important;
+  height: 390px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.online-therapy-image {
+  width: 100% !important;
+  max-width: 560px !important;
+  height: 365px !important;
+
+  overflow: hidden !important;
+
+  border-radius: 28px !important;
+
+  transform: rotate(-3deg) !important;
+
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.online-therapy-image img {
+  width: 100% !important;
+  height: 100% !important;
+
+  display: block !important;
+
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+
+/* =========================================
+   RIGHT CONTENT
+   ========================================= */
+
+.online-therapy-content {
+  position: relative !important;
+  z-index: 5 !important;
+
+  padding-top: 5px !important;
+}
+
+.online-therapy-content .section-label {
+  margin-bottom: 12px !important;
+
+  color: #67539a !important;
+
+  font-size: 11px !important;
+  font-weight: 700 !important;
+
+  letter-spacing: 3px !important;
+}
+
+.online-therapy-content h2 {
+  margin: 0 0 18px !important;
+
+  color: #24202c !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 42px !important;
+  line-height: 1.08 !important;
+
+  font-weight: 600 !important;
+}
+
+.online-therapy-content h2 span {
+  color: #67539a !important;
+}
+
+.online-therapy-description {
+  max-width: 520px !important;
+
+  margin: 0 0 25px !important;
+
+  color: #777281 !important;
+
+  font-size: 13px !important;
+  line-height: 1.65 !important;
+}
+
+
+/* =========================================
+   FEATURES
+   ========================================= */
+
+.online-features {
+  display: flex !important;
+  flex-direction: column !important;
+
+  gap: 17px !important;
+
+  margin-bottom: 25px !important;
+}
+
+.online-feature {
+  display: flex !important;
+  align-items: center !important;
+
+  gap: 15px !important;
+}
+
+.online-feature-icon {
+  flex: 0 0 48px !important;
+
+  width: 48px !important;
+  height: 48px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  border-radius: 50% !important;
+
+  background: #eee8f8 !important;
+}
+
+.online-feature-icon svg {
+  width: 23px !important;
+  height: 23px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+
+  stroke-width: 1.7 !important;
+
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+.online-feature h3 {
+  margin: 0 0 4px !important;
+
+  color: #292531 !important;
+
+  font-size: 13px !important;
+  line-height: 1.3 !important;
+
+  font-weight: 700 !important;
+}
+
+.online-feature p {
+  margin: 0 !important;
+
+  color: #85808e !important;
+
+  font-size: 10px !important;
+  line-height: 1.45 !important;
+}
+
+
+/* =========================================
+   BUTTON
+   ========================================= */
+
+.online-therapy-button {
+  display: inline-flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: 18px !important;
+
+  padding: 14px 24px !important;
+
+  border-radius: 40px !important;
+
+  background: #6b5b95 !important;
+
+  color: #ffffff !important;
+
+  text-decoration: none !important;
+
+  font-size: 12px !important;
+  font-weight: 600 !important;
+
+  transition: all 0.3s ease !important;
+}
+
+.online-therapy-button:hover {
+  background: #59497f !important;
+  transform: translateY(-2px) !important;
+}
+
+.online-therapy-button span {
+  font-size: 17px !important;
+}
+
+
+/* =========================================
+   BOTTOM STATS
+   ========================================= */
+
+.online-therapy-stats {
+  grid-column: 1 / -1 !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+
+  gap: 45px !important;
+
+  padding-top: 5px !important;
+}
+
+.online-stat {
+  min-width: 120px !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  text-align: center !important;
+}
+
+.online-stat-icon {
+  margin-bottom: 3px !important;
+
+  color: #67539a !important;
+
+  font-size: 23px !important;
+}
+
+.online-stat strong {
+  color: #67539a !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 21px !important;
+  line-height: 1.1 !important;
+}
+
+.online-stat span {
+  margin-top: 4px !important;
+
+  color: #777281 !important;
+
+  font-size: 10px !important;
+}
+
+.online-stat-divider {
+  width: 1px !important;
+  height: 55px !important;
+
+  background: #d8d0e4 !important;
+}
+
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .online-therapy {
+    grid-template-columns: 1fr !important;
+
+    padding: 30px !important;
+  }
+
+  .online-therapy-left {
+    height: 330px !important;
+  }
+
+  .online-therapy-image {
+    height: 310px !important;
+  }
+
+  .online-therapy-content h2 {
+    font-size: 36px !important;
+  }
+
+  .online-therapy-stats {
+    justify-content: center !important;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .online-therapy {
+    width: 94% !important;
+
+    padding: 22px !important;
+  }
+
+  .online-therapy-left {
+    height: 350px !important;
+  }
+
+  .online-therapy-image {
+    height: 330px !important;
+  }
+
+  .online-therapy-content h2 {
+    font-size: 31px !important;
+  }
+
+  .online-therapy-stats {
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+  }
+
+  .online-stat-divider {
+    display: none !important;
+  }
+}
+/* =========================================
+   ONLINE THERAPY STATS UNDER IMAGE
+   ========================================= */
+
+.online-therapy-stats {
+  grid-column: 1 !important;
+  grid-row: 2 !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+
+  width: 100% !important;
+
+  margin-top: -10px !important;
+  padding: 0 10px !important;
+
+  gap: 15px !important;
+}
+
+.online-stat {
+  flex: 1 !important;
+  min-width: 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  text-align: center !important;
+}
+
+.online-stat-icon {
+  margin-bottom: 3px !important;
+
+  color: #67539a !important;
+  font-size: 22px !important;
+}
+
+.online-stat strong {
+  color: #67539a !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 20px !important;
+  line-height: 1.1 !important;
+}
+
+.online-stat span {
+  margin-top: 4px !important;
+
+  color: #777281 !important;
+
+  font-size: 9px !important;
+  white-space: nowrap !important;
+}
+
+.online-stat-divider {
+  width: 1px !important;
+  height: 48px !important;
+
+  flex-shrink: 0 !important;
+
+  background: #d8d0e4 !important;
+}
+/* =========================================
+   MOVE ONLINE THERAPY STATS UP
+   ========================================= */
+
+.online-therapy {
+  position: relative !important;
+}
+
+/* Put stats on the left side */
+.online-therapy-stats {
+  position: absolute !important;
+
+  left: 45px !important;
+  bottom: 105px !important;
+
+  width: calc(50% - 45px) !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  gap: 20px !important;
+}
+
+/* Each statistic */
+.online-stat {
+  flex: 1 !important;
+  min-width: 0 !important;
+}
+
+/* Divider */
+.online-stat-divider {
+  width: 1px !important;
+  height: 48px !important;
+  flex-shrink: 0 !important;
+}
+/* =========================================
+   ONLINE THERAPY - FINAL CLEAN DESIGN
+   ========================================= */
+
+.online-therapy {
+  width: 92% !important;
+  max-width: 1200px !important;
+
+  margin: 80px auto !important;
+
+  padding: 40px 45px 30px !important;
+
+  box-sizing: border-box !important;
+
+  display: grid !important;
+  grid-template-columns: 1.05fr 0.95fr !important;
+
+  column-gap: 45px !important;
+
+  background: #f8f5fc !important;
+
+  border-radius: 30px !important;
+
+  overflow: hidden !important;
+}
+
+
+/* =========================================
+   LEFT IMAGE
+   ========================================= */
+
+.online-therapy-left {
+  position: relative !important;
+
+  width: 100% !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+
+  min-width: 0 !important;
+}
+
+.online-therapy-image {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: 560px !important;
+
+  height: auto !important;
+
+  border-radius: 28px !important;
+
+  overflow: hidden !important;
+
+  transform: rotate(-3deg) !important;
+
+  z-index: 2 !important;
+}
+
+.online-therapy-image img {
+  width: 100% !important;
+
+  height: auto !important;
+
+  display: block !important;
+
+  object-fit: contain !important;
+}
+
+
+/* =========================================
+   STATS UNDER IMAGE
+   ========================================= */
+
+.online-therapy-stats {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: 540px !important;
+
+  margin-top: 18px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+
+  padding: 0 5px !important;
+
+  box-sizing: border-box !important;
+
+  z-index: 5 !important;
+}
+
+.online-stat {
+  flex: 1 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  text-align: center !important;
+}
+
+.online-stat-icon {
+  width: 32px !important;
+  height: 32px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  margin-bottom: 3px !important;
+}
+
+.online-stat-icon svg {
+  width: 28px !important;
+  height: 28px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+
+  stroke-width: 1.7 !important;
+
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+.online-stat strong {
+  color: #67539a !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 21px !important;
+
+  line-height: 1.1 !important;
+}
+
+.online-stat span {
+  margin-top: 4px !important;
+
+  color: #777281 !important;
+
+  font-size: 10px !important;
+}
+
+.online-stat-divider {
+  width: 1px !important;
+
+  height: 50px !important;
+
+  background: #d8d0e4 !important;
+
+  flex-shrink: 0 !important;
+}
+
+
+/* =========================================
+   RIGHT CONTENT
+   ========================================= */
+
+.online-therapy-content {
+  padding-top: 5px !important;
+
+  min-width: 0 !important;
+}
+
+.online-therapy-content .section-label {
+  margin: 0 0 12px !important;
+
+  color: #67539a !important;
+
+  font-size: 11px !important;
+
+  font-weight: 700 !important;
+
+  letter-spacing: 3px !important;
+}
+
+.online-therapy-content h2 {
+  margin: 0 0 20px !important;
+
+  color: #24202c !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 42px !important;
+
+  line-height: 1.08 !important;
+
+  font-weight: 600 !important;
+}
+
+.online-therapy-content h2 span {
+  color: #67539a !important;
+}
+
+.online-therapy-description {
+  max-width: 560px !important;
+
+  margin: 0 0 27px !important;
+
+  color: #777281 !important;
+
+  font-size: 13px !important;
+
+  line-height: 1.65 !important;
+}
+
+
+/* =========================================
+   FEATURE ROWS
+   ========================================= */
+
+.online-features {
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  gap: 18px !important;
+
+  margin-bottom: 25px !important;
+}
+
+.online-feature {
+  display: flex !important;
+
+  align-items: center !important;
+
+  gap: 15px !important;
+}
+
+.online-feature-icon {
+  width: 50px !important;
+  height: 50px !important;
+
+  min-width: 50px !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  border-radius: 50% !important;
+
+  background: #eee8f8 !important;
+}
+
+.online-feature-icon svg {
+  width: 25px !important;
+  height: 25px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+
+  stroke-width: 1.7 !important;
+
+  stroke-linecap: round !important;
+
+  stroke-linejoin: round !important;
+}
+
+.online-feature h3 {
+  margin: 0 0 5px !important;
+
+  color: #292531 !important;
+
+  font-size: 14px !important;
+
+  line-height: 1.3 !important;
+
+  font-weight: 700 !important;
+}
+
+.online-feature p {
+  margin: 0 !important;
+
+  color: #85808e !important;
+
+  font-size: 10px !important;
+
+  line-height: 1.5 !important;
+}
+
+
+/* =========================================
+   BUTTON
+   ========================================= */
+
+.online-therapy-button {
+  display: inline-flex !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  gap: 20px !important;
+
+  padding: 15px 27px !important;
+
+  border-radius: 40px !important;
+
+  background: #6b5b95 !important;
+
+  color: #ffffff !important;
+
+  text-decoration: none !important;
+
+  font-size: 12px !important;
+
+  font-weight: 600 !important;
+}
+
+.online-therapy-button span {
+  font-size: 17px !important;
+}
+
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .online-therapy {
+    grid-template-columns: 1fr !important;
+
+    gap: 35px !important;
+
+    padding: 30px !important;
+  }
+
+  .online-therapy-image {
+    max-width: 600px !important;
+  }
+
+  .online-therapy-stats {
+    max-width: 560px !important;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .online-therapy {
+    width: 94% !important;
+
+    padding: 22px !important;
+  }
+
+  .online-therapy-content h2 {
+    font-size: 32px !important;
+  }
+
+  .online-stat strong {
+    font-size: 18px !important;
+  }
+
+  .online-stat span {
+    font-size: 8px !important;
+  }
+
+  .online-feature h3 {
+    font-size: 12px !important;
+  }
+
+}
+/* =========================================
+   ONLINE THERAPY - BALANCED FINAL LAYOUT
+   ========================================= */
+
+.online-therapy {
+  width: 92% !important;
+  max-width: 1250px !important;
+
+  margin: 80px auto !important;
+  padding: 35px 40px 30px !important;
+
+  display: grid !important;
+  grid-template-columns: 1.05fr 0.95fr !important;
+
+  column-gap: 45px !important;
+  row-gap: 0 !important;
+
+  align-items: start !important;
+
+  box-sizing: border-box !important;
+
+  background: #f8f5fc !important;
+  border-radius: 30px !important;
+
+  overflow: hidden !important;
+}
+
+
+/* =========================================
+   LEFT SIDE
+   ========================================= */
+
+.online-therapy-left {
+  width: 100% !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+
+  min-width: 0 !important;
+}
+
+
+/* BIGGER IMAGE */
+
+.online-therapy-image {
+  width: 100% !important;
+  max-width: 650px !important;
+
+  height: auto !important;
+
+  overflow: hidden !important;
+
+  border-radius: 28px !important;
+
+  transform: rotate(-3deg) !important;
+
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.online-therapy-image img {
+  width: 100% !important;
+  height: auto !important;
+
+  display: block !important;
+
+  object-fit: contain !important;
+}
+
+
+/* =========================================
+   STATS DIRECTLY UNDER IMAGE
+   ========================================= */
+
+.online-therapy-stats {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: 610px !important;
+
+  margin-top: 12px !important;
+
+  padding: 0 !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+
+  box-sizing: border-box !important;
+}
+
+.online-stat {
+  flex: 1 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  text-align: center !important;
+}
+
+.online-stat-icon {
+  width: 32px !important;
+  height: 32px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  margin-bottom: 2px !important;
+}
+
+.online-stat-icon svg {
+  width: 29px !important;
+  height: 29px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+  stroke-width: 1.8 !important;
+
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+.online-stat strong {
+  color: #67539a !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 21px !important;
+}
+
+.online-stat span {
+  margin-top: 3px !important;
+
+  color: #777281 !important;
+
+  font-size: 10px !important;
+}
+
+.online-stat-divider {
+  width: 1px !important;
+  height: 48px !important;
+
+  background: #d8d0e4 !important;
+
+  flex-shrink: 0 !important;
+}
+
+
+/* =========================================
+   RIGHT SIDE
+   ========================================= */
+
+.online-therapy-content {
+  padding-top: 5px !important;
+
+  min-width: 0 !important;
+}
+
+.online-therapy-content .section-label {
+  margin: 0 0 12px !important;
+
+  color: #67539a !important;
+
+  font-size: 11px !important;
+  font-weight: 700 !important;
+
+  letter-spacing: 3px !important;
+}
+
+.online-therapy-content h2 {
+  margin: 0 0 18px !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 42px !important;
+  line-height: 1.08 !important;
+
+  color: #24202c !important;
+}
+
+.online-therapy-content h2 span {
+  color: #67539a !important;
+}
+
+.online-therapy-description {
+  max-width: 540px !important;
+
+  margin: 0 0 25px !important;
+
+  color: #777281 !important;
+
+  font-size: 13px !important;
+  line-height: 1.6 !important;
+}
+
+
+/* =========================================
+   FEATURES
+   ========================================= */
+
+.online-features {
+  display: flex !important;
+  flex-direction: column !important;
+
+  gap: 16px !important;
+
+  margin-bottom: 23px !important;
+}
+
+.online-feature {
+  display: flex !important;
+  align-items: center !important;
+
+  gap: 15px !important;
+}
+
+.online-feature-icon {
+  width: 50px !important;
+  height: 50px !important;
+
+  min-width: 50px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  border-radius: 50% !important;
+
+  background: #eee8f8 !important;
+}
+
+.online-feature-icon svg {
+  width: 25px !important;
+  height: 25px !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+  stroke-width: 1.7 !important;
+
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+.online-feature h3 {
+  margin: 0 0 4px !important;
+
+  color: #292531 !important;
+
+  font-size: 14px !important;
+  line-height: 1.3 !important;
+
+  font-weight: 700 !important;
+}
+
+.online-feature p {
+  margin: 0 !important;
+
+  color: #85808e !important;
+
+  font-size: 10px !important;
+  line-height: 1.45 !important;
+}
+
+
+/* =========================================
+   BUTTON
+   ========================================= */
+
+.online-therapy-button {
+  display: inline-flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: 20px !important;
+
+  padding: 15px 28px !important;
+
+  border-radius: 40px !important;
+
+  background: #6b5b95 !important;
+
+  color: #ffffff !important;
+
+  text-decoration: none !important;
+
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+.online-therapy-button span {
+  font-size: 17px !important;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .online-therapy {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+
+  .online-therapy-image {
+    max-width: 650px !important;
+  }
+
+  .online-therapy-stats {
+    max-width: 620px !important;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .online-therapy {
+    width: 94% !important;
+    padding: 22px !important;
+  }
+
+  .online-therapy-content h2 {
+    font-size: 32px !important;
+  }
+
+  .online-stat strong {
+    font-size: 18px !important;
+  }
+
+  .online-stat span {
+    font-size: 8px !important;
+  }
+}
+/* =========================================
+   ONLINE THERAPY - FINAL CLEAN DESIGN
+   ========================================= */
+
+.online-therapy {
+  width: 92% !important;
+  max-width: 1200px !important;
+
+  margin: 80px auto !important;
+
+  padding: 40px 45px 30px !important;
+
+  box-sizing: border-box !important;
+
+  display: grid !important;
+  grid-template-columns: 1.05fr 0.95fr !important;
+
+  column-gap: 45px !important;
+
+  background: #f8f5fc !important;
+
+  border-radius: 30px !important;
+
+  overflow: hidden !important;
+}
+
+
+/* =========================================
+   LEFT IMAGE
+   ========================================= */
+
+.online-therapy-left {
+  position: relative !important;
+
+  width: 100% !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+
+  min-width: 0 !important;
+}
+
+.online-therapy-image {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: 560px !important;
+
+  height: auto !important;
+
+  border-radius: 28px !important;
+
+  overflow: hidden !important;
+
+  transform: rotate(-3deg) !important;
+
+  z-index: 2 !important;
+}
+
+.online-therapy-image img {
+  width: 100% !important;
+
+  height: auto !important;
+
+  display: block !important;
+
+  object-fit: contain !important;
+}
+
+
+/* =========================================
+   STATS UNDER IMAGE
+   ========================================= */
+
+.online-therapy-stats {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: 540px !important;
+
+  margin-top: 18px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+
+  padding: 0 5px !important;
+
+  box-sizing: border-box !important;
+
+  z-index: 5 !important;
+}
+
+.online-stat {
+  flex: 1 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  text-align: center !important;
+}
+
+.online-stat-icon {
+  width: 32px !important;
+  height: 32px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  margin-bottom: 3px !important;
+}
+
+.online-stat-icon svg {
+  width: 28px !important;
+  height: 28px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+
+  stroke-width: 1.7 !important;
+
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+.online-stat strong {
+  color: #67539a !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 21px !important;
+
+  line-height: 1.1 !important;
+}
+
+.online-stat span {
+  margin-top: 4px !important;
+
+  color: #777281 !important;
+
+  font-size: 10px !important;
+}
+
+.online-stat-divider {
+  width: 1px !important;
+
+  height: 50px !important;
+
+  background: #d8d0e4 !important;
+
+  flex-shrink: 0 !important;
+}
+
+
+/* =========================================
+   RIGHT CONTENT
+   ========================================= */
+
+.online-therapy-content {
+  padding-top: 5px !important;
+
+  min-width: 0 !important;
+}
+
+.online-therapy-content .section-label {
+  margin: 0 0 12px !important;
+
+  color: #67539a !important;
+
+  font-size: 11px !important;
+
+  font-weight: 700 !important;
+
+  letter-spacing: 3px !important;
+}
+
+.online-therapy-content h2 {
+  margin: 0 0 20px !important;
+
+  color: #24202c !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 42px !important;
+
+  line-height: 1.08 !important;
+
+  font-weight: 600 !important;
+}
+
+.online-therapy-content h2 span {
+  color: #67539a !important;
+}
+
+.online-therapy-description {
+  max-width: 560px !important;
+
+  margin: 0 0 27px !important;
+
+  color: #777281 !important;
+
+  font-size: 13px !important;
+
+  line-height: 1.65 !important;
+}
+
+
+/* =========================================
+   FEATURE ROWS
+   ========================================= */
+
+.online-features {
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  gap: 18px !important;
+
+  margin-bottom: 25px !important;
+}
+
+.online-feature {
+  display: flex !important;
+
+  align-items: center !important;
+
+  gap: 15px !important;
+}
+
+.online-feature-icon {
+  width: 50px !important;
+  height: 50px !important;
+
+  min-width: 50px !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  border-radius: 50% !important;
+
+  background: #eee8f8 !important;
+}
+
+.online-feature-icon svg {
+  width: 25px !important;
+  height: 25px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+
+  stroke-width: 1.7 !important;
+
+  stroke-linecap: round !important;
+
+  stroke-linejoin: round !important;
+}
+
+.online-feature h3 {
+  margin: 0 0 5px !important;
+
+  color: #292531 !important;
+
+  font-size: 14px !important;
+
+  line-height: 1.3 !important;
+
+  font-weight: 700 !important;
+}
+
+.online-feature p {
+  margin: 0 !important;
+
+  color: #85808e !important;
+
+  font-size: 10px !important;
+
+  line-height: 1.5 !important;
+}
+
+
+/* =========================================
+   BUTTON
+   ========================================= */
+
+.online-therapy-button {
+  display: inline-flex !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  gap: 20px !important;
+
+  padding: 15px 27px !important;
+
+  border-radius: 40px !important;
+
+  background: #6b5b95 !important;
+
+  color: #ffffff !important;
+
+  text-decoration: none !important;
+
+  font-size: 12px !important;
+
+  font-weight: 600 !important;
+}
+
+.online-therapy-button span {
+  font-size: 17px !important;
+}
+
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .online-therapy {
+    grid-template-columns: 1fr !important;
+
+    gap: 35px !important;
+
+    padding: 30px !important;
+  }
+
+  .online-therapy-image {
+    max-width: 600px !important;
+  }
+
+  .online-therapy-stats {
+    max-width: 560px !important;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .online-therapy {
+    width: 94% !important;
+
+    padding: 22px !important;
+  }
+
+  .online-therapy-content h2 {
+    font-size: 32px !important;
+  }
+
+  .online-stat strong {
+    font-size: 18px !important;
+  }
+
+  .online-stat span {
+    font-size: 8px !important;
+  }
+
+  .online-feature h3 {
+    font-size: 12px !important;
+  }
+
+}
+/* =========================================
+   ONLINE THERAPY - BALANCED FINAL LAYOUT
+   ========================================= */
+
+.online-therapy {
+  width: 92% !important;
+  max-width: 1250px !important;
+
+  margin: 80px auto !important;
+  padding: 35px 40px 30px !important;
+
+  display: grid !important;
+  grid-template-columns: 1.05fr 0.95fr !important;
+
+  column-gap: 45px !important;
+  row-gap: 0 !important;
+
+  align-items: start !important;
+
+  box-sizing: border-box !important;
+
+  background: #f8f5fc !important;
+  border-radius: 30px !important;
+
+  overflow: hidden !important;
+}
+
+
+/* =========================================
+   LEFT SIDE
+   ========================================= */
+
+.online-therapy-left {
+  width: 100% !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+
+  min-width: 0 !important;
+}
+
+
+/* BIGGER IMAGE */
+
+.online-therapy-image {
+  width: 100% !important;
+  max-width: 650px !important;
+
+  height: auto !important;
+
+  overflow: hidden !important;
+
+  border-radius: 28px !important;
+
+  transform: rotate(-3deg) !important;
+
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.online-therapy-image img {
+  width: 100% !important;
+  height: auto !important;
+
+  display: block !important;
+
+  object-fit: contain !important;
+}
+
+
+/* =========================================
+   STATS DIRECTLY UNDER IMAGE
+   ========================================= */
+
+.online-therapy-stats {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: 610px !important;
+
+  margin-top: 12px !important;
+
+  padding: 0 !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+
+  box-sizing: border-box !important;
+}
+
+.online-stat {
+  flex: 1 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  text-align: center !important;
+}
+
+.online-stat-icon {
+  width: 32px !important;
+  height: 32px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  margin-bottom: 2px !important;
+}
+
+.online-stat-icon svg {
+  width: 29px !important;
+  height: 29px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+  stroke-width: 1.8 !important;
+
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+.online-stat strong {
+  color: #67539a !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 21px !important;
+}
+
+.online-stat span {
+  margin-top: 3px !important;
+
+  color: #777281 !important;
+
+  font-size: 10px !important;
+}
+
+.online-stat-divider {
+  width: 1px !important;
+  height: 48px !important;
+
+  background: #d8d0e4 !important;
+
+  flex-shrink: 0 !important;
+}
+
+
+/* =========================================
+   RIGHT SIDE
+   ========================================= */
+
+.online-therapy-content {
+  padding-top: 5px !important;
+
+  min-width: 0 !important;
+}
+
+.online-therapy-content .section-label {
+  margin: 0 0 12px !important;
+
+  color: #67539a !important;
+
+  font-size: 11px !important;
+  font-weight: 700 !important;
+
+  letter-spacing: 3px !important;
+}
+
+.online-therapy-content h2 {
+  margin: 0 0 18px !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 42px !important;
+  line-height: 1.08 !important;
+
+  color: #24202c !important;
+}
+
+.online-therapy-content h2 span {
+  color: #67539a !important;
+}
+
+.online-therapy-description {
+  max-width: 540px !important;
+
+  margin: 0 0 25px !important;
+
+  color: #777281 !important;
+
+  font-size: 13px !important;
+  line-height: 1.6 !important;
+}
+
+
+/* =========================================
+   FEATURES
+   ========================================= */
+
+.online-features {
+  display: flex !important;
+  flex-direction: column !important;
+
+  gap: 16px !important;
+
+  margin-bottom: 23px !important;
+}
+
+.online-feature {
+  display: flex !important;
+  align-items: center !important;
+
+  gap: 15px !important;
+}
+
+.online-feature-icon {
+  width: 50px !important;
+  height: 50px !important;
+
+  min-width: 50px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  border-radius: 50% !important;
+
+  background: #eee8f8 !important;
+}
+
+.online-feature-icon svg {
+  width: 25px !important;
+  height: 25px !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+  stroke-width: 1.7 !important;
+
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+.online-feature h3 {
+  margin: 0 0 4px !important;
+
+  color: #292531 !important;
+
+  font-size: 14px !important;
+  line-height: 1.3 !important;
+
+  font-weight: 700 !important;
+}
+
+.online-feature p {
+  margin: 0 !important;
+
+  color: #85808e !important;
+
+  font-size: 10px !important;
+  line-height: 1.45 !important;
+}
+
+
+/* =========================================
+   BUTTON
+   ========================================= */
+
+.online-therapy-button {
+  display: inline-flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: 20px !important;
+
+  padding: 15px 28px !important;
+
+  border-radius: 40px !important;
+
+  background: #6b5b95 !important;
+
+  color: #ffffff !important;
+
+  text-decoration: none !important;
+
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+.online-therapy-button span {
+  font-size: 17px !important;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .online-therapy {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+
+  .online-therapy-image {
+    max-width: 650px !important;
+  }
+
+  .online-therapy-stats {
+    max-width: 620px !important;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .online-therapy {
+    width: 94% !important;
+    padding: 22px !important;
+  }
+
+  .online-therapy-content h2 {
+    font-size: 32px !important;
+  }
+
+  .online-stat strong {
+    font-size: 18px !important;
+  }
+
+  .online-stat span {
+    font-size: 8px !important;
+  }
+}
+/* =========================================
+   ONLINE THERAPY - FINAL BALANCED LAYOUT
+   ========================================= */
+
+.online-therapy {
+  position: relative !important;
+
+  width: 94% !important;
+  max-width: 1350px !important;
+
+  margin: 70px auto !important;
+
+  padding: 35px 40px 35px !important;
+
+  box-sizing: border-box !important;
+
+  display: grid !important;
+
+  grid-template-columns: 1.15fr 0.85fr !important;
+
+  column-gap: 50px !important;
+
+  align-items: start !important;
+
+  background: #f8f5fc !important;
+
+  border-radius: 30px !important;
+
+  overflow: hidden !important;
+}
+
+
+/* =========================================
+   LEFT IMAGE
+   ========================================= */
+
+.online-therapy-left {
+  width: 100% !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+
+  min-width: 0 !important;
+}
+
+.online-therapy-image {
+  width: 100% !important;
+
+  max-width: 700px !important;
+
+  height: auto !important;
+
+  overflow: hidden !important;
+
+  border-radius: 30px !important;
+
+  transform: rotate(-3deg) !important;
+
+  position: relative !important;
+
+  z-index: 2 !important;
+}
+
+.online-therapy-image img {
+  width: 100% !important;
+
+  height: auto !important;
+
+  display: block !important;
+
+  object-fit: contain !important;
+}
+
+
+/* =========================================
+   STATS UNDER IMAGE
+   ========================================= */
+
+.online-therapy-stats {
+  width: 100% !important;
+
+  max-width: 650px !important;
+
+  margin-top: 15px !important;
+
+  padding: 0 5px !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+
+  justify-content: space-between !important;
+
+  box-sizing: border-box !important;
+}
+
+.online-stat {
+  flex: 1 !important;
+
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  align-items: center !important;
+
+  text-align: center !important;
+}
+
+.online-stat-icon {
+  width: 32px !important;
+  height: 32px !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  margin-bottom: 2px !important;
+}
+
+.online-stat-icon svg {
+  width: 29px !important;
+  height: 29px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+
+  stroke-width: 1.8 !important;
+
+  stroke-linecap: round !important;
+
+  stroke-linejoin: round !important;
+}
+
+.online-stat strong {
+  color: #67539a !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 21px !important;
+
+  line-height: 1.1 !important;
+}
+
+.online-stat span {
+  margin-top: 4px !important;
+
+  color: #777281 !important;
+
+  font-size: 10px !important;
+}
+
+.online-stat-divider {
+  width: 1px !important;
+
+  height: 48px !important;
+
+  flex-shrink: 0 !important;
+
+  background: #d8d0e4 !important;
+}
+
+
+/* =========================================
+   RIGHT CONTENT
+   ========================================= */
+
+.online-therapy-content {
+  min-width: 0 !important;
+
+  padding-top: 15px !important;
+
+  padding-bottom: 5px !important;
+}
+
+.online-therapy-content .section-label {
+  margin: 0 0 13px !important;
+
+  color: #67539a !important;
+
+  font-size: 11px !important;
+
+  font-weight: 700 !important;
+
+  letter-spacing: 3px !important;
+}
+
+.online-therapy-content h2 {
+  margin: 0 0 20px !important;
+
+  color: #24202c !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 43px !important;
+
+  line-height: 1.07 !important;
+
+  font-weight: 600 !important;
+}
+
+.online-therapy-content h2 span {
+  color: #67539a !important;
+}
+
+.online-therapy-description {
+  max-width: 600px !important;
+
+  margin: 0 0 27px !important;
+
+  color: #777281 !important;
+
+  font-size: 13px !important;
+
+  line-height: 1.65 !important;
+}
+
+
+/* =========================================
+   FEATURES
+   ========================================= */
+
+.online-features {
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  gap: 16px !important;
+
+  margin-bottom: 24px !important;
+}
+
+.online-feature {
+  display: flex !important;
+
+  align-items: center !important;
+
+  gap: 15px !important;
+}
+
+.online-feature-icon {
+  width: 50px !important;
+
+  height: 50px !important;
+
+  min-width: 50px !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  border-radius: 50% !important;
+
+  background: #eee8f8 !important;
+}
+
+.online-feature-icon svg {
+  width: 25px !important;
+
+  height: 25px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+
+  stroke-width: 1.7 !important;
+
+  stroke-linecap: round !important;
+
+  stroke-linejoin: round !important;
+}
+
+.online-feature h3 {
+  margin: 0 0 4px !important;
+
+  color: #292531 !important;
+
+  font-size: 14px !important;
+
+  line-height: 1.3 !important;
+
+  font-weight: 700 !important;
+}
+
+.online-feature p {
+  margin: 0 !important;
+
+  color: #85808e !important;
+
+  font-size: 10px !important;
+
+  line-height: 1.5 !important;
+}
+
+
+/* =========================================
+   BUTTON
+   ========================================= */
+
+.online-therapy-button {
+  display: inline-flex !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  gap: 20px !important;
+
+  padding: 15px 28px !important;
+
+  border-radius: 40px !important;
+
+  background: #6b5b95 !important;
+
+  color: #ffffff !important;
+
+  text-decoration: none !important;
+
+  font-size: 12px !important;
+
+  font-weight: 600 !important;
+
+  margin-top: 2px !important;
+}
+
+.online-therapy-button span {
+  font-size: 17px !important;
+}
+
+
+/* =========================================
+   DESKTOP - PUT STATS AND BUTTON TOGETHER
+   ========================================= */
+
+@media (min-width: 901px) {
+
+  .online-therapy {
+    padding-bottom: 30px !important;
+  }
+
+  .online-therapy-stats {
+    align-self: end !important;
+  }
+
+  .online-therapy-button {
+    margin-bottom: 5px !important;
+  }
+}
+
+
+/* =========================================
+   TABLET / MOBILE
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .online-therapy {
+    grid-template-columns: 1fr !important;
+
+    row-gap: 30px !important;
+
+    padding: 30px !important;
+  }
+
+  .online-therapy-image {
+    max-width: 700px !important;
+  }
+
+  .online-therapy-content {
+    padding-top: 0 !important;
+  }
+
+  .online-therapy-stats {
+    max-width: 700px !important;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .online-therapy {
+    width: 94% !important;
+
+    padding: 22px !important;
+  }
+
+  .online-therapy-content h2 {
+    font-size: 32px !important;
+  }
+
+  .online-stat strong {
+    font-size: 18px !important;
+  }
+
+  .online-stat span {
+    font-size: 8px !important;
+  }
+
+  .online-feature h3 {
+    font-size: 12px !important;
+  }
+}
+/* =====================================================
+   ONLINE THERAPY - PROPORTION FIX
+   ===================================================== */
+
+.online-therapy {
+  width: 94% !important;
+  max-width: 1400px !important;
+
+  margin: 70px auto !important;
+  padding: 35px 40px 35px !important;
+
+  box-sizing: border-box !important;
+
+  display: grid !important;
+
+  /* GIVE THE IMAGE MORE SPACE */
+  grid-template-columns: 1.12fr 0.88fr !important;
+
+  column-gap: 45px !important;
+
+  align-items: start !important;
+
+  background: #f8f5fc !important;
+
+  border-radius: 30px !important;
+
+  overflow: hidden !important;
+}
+
+
+/* =====================================================
+   LEFT SIDE
+   ===================================================== */
+
+.online-therapy-left {
+  width: 100% !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+
+  min-width: 0 !important;
+}
+
+
+/* BIG IMAGE */
+
+.online-therapy-image {
+  width: 100% !important;
+
+  max-width: 760px !important;
+
+  height: auto !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: visible !important;
+
+  border-radius: 30px !important;
+
+  transform: rotate(-3deg) !important;
+
+  position: relative !important;
+
+  z-index: 2 !important;
+}
+
+.online-therapy-image img {
+  width: 100% !important;
+
+  height: auto !important;
+
+  display: block !important;
+
+  object-fit: contain !important;
+
+  object-position: center !important;
+}
+
+
+/* =====================================================
+   STATS - DIRECTLY UNDER IMAGE
+   ===================================================== */
+
+.online-therapy-stats {
+  width: 94% !important;
+
+  max-width: 700px !important;
+
+  margin: 12px auto 0 !important;
+
+  padding: 0 !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+
+  justify-content: space-between !important;
+
+  box-sizing: border-box !important;
+}
+
+.online-stat {
+  flex: 1 !important;
+
+  min-width: 0 !important;
+
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  text-align: center !important;
+}
+
+.online-stat-icon {
+  width: 34px !important;
+  height: 34px !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  margin-bottom: 2px !important;
+}
+
+.online-stat-icon svg {
+  width: 30px !important;
+  height: 30px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+
+  stroke-width: 1.8 !important;
+
+  stroke-linecap: round !important;
+
+  stroke-linejoin: round !important;
+}
+
+.online-stat strong {
+  color: #67539a !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 22px !important;
+
+  line-height: 1.1 !important;
+}
+
+.online-stat span {
+  margin-top: 4px !important;
+
+  color: #777281 !important;
+
+  font-size: 10px !important;
+
+  white-space: nowrap !important;
+}
+
+.online-stat-divider {
+  width: 1px !important;
+
+  height: 52px !important;
+
+  flex-shrink: 0 !important;
+
+  background: #d8d0e4 !important;
+}
+
+
+/* =====================================================
+   RIGHT SIDE
+   ===================================================== */
+
+.online-therapy-content {
+  width: 100% !important;
+
+  min-width: 0 !important;
+
+  padding: 15px 5px 0 !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* LABEL */
+
+.online-therapy-content .section-label {
+  margin: 0 0 12px !important;
+
+  color: #67539a !important;
+
+  font-size: 11px !important;
+
+  font-weight: 700 !important;
+
+  letter-spacing: 3px !important;
+}
+
+
+/* HEADING */
+
+.online-therapy-content h2 {
+  width: 100% !important;
+
+  max-width: 560px !important;
+
+  margin: 0 0 18px !important;
+
+  color: #24202c !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 39px !important;
+
+  line-height: 1.08 !important;
+
+  font-weight: 600 !important;
+}
+
+.online-therapy-content h2 span {
+  color: #67539a !important;
+}
+
+
+/* DESCRIPTION */
+
+.online-therapy-description {
+  width: 100% !important;
+
+  max-width: 570px !important;
+
+  margin: 0 0 25px !important;
+
+  color: #777281 !important;
+
+  font-size: 13px !important;
+
+  line-height: 1.6 !important;
+}
+
+
+/* =====================================================
+   FEATURES
+   ===================================================== */
+
+.online-features {
+  width: 100% !important;
+
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  gap: 15px !important;
+
+  margin: 0 0 22px !important;
+}
+
+.online-feature {
+  width: 100% !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+
+  gap: 15px !important;
+}
+
+.online-feature-icon {
+  width: 50px !important;
+
+  height: 50px !important;
+
+  min-width: 50px !important;
+
+  flex-shrink: 0 !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  border-radius: 50% !important;
+
+  background: #eee8f8 !important;
+}
+
+.online-feature-icon svg {
+  width: 25px !important;
+
+  height: 25px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #67539a !important;
+
+  stroke-width: 1.7 !important;
+
+  stroke-linecap: round !important;
+
+  stroke-linejoin: round !important;
+}
+
+
+/* IMPORTANT:
+   TEXT GETS THE REMAINING WIDTH */
+
+.online-feature > div:last-child {
+  flex: 1 !important;
+
+  min-width: 0 !important;
+}
+
+.online-feature h3 {
+  margin: 0 0 4px !important;
+
+  color: #292531 !important;
+
+  font-size: 14px !important;
+
+  line-height: 1.3 !important;
+
+  font-weight: 700 !important;
+}
+
+.online-feature p {
+  margin: 0 !important;
+
+  color: #85808e !important;
+
+  font-size: 10px !important;
+
+  line-height: 1.45 !important;
+}
+
+
+/* =====================================================
+   BUTTON
+   ===================================================== */
+
+.online-therapy-button {
+  width: 100% !important;
+
+  max-width: 430px !important;
+
+  min-height: 52px !important;
+
+  box-sizing: border-box !important;
+
+  display: inline-flex !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  gap: 20px !important;
+
+  padding: 15px 25px !important;
+
+  border-radius: 40px !important;
+
+  background: #6b5b95 !important;
+
+  color: #ffffff !important;
+
+  text-decoration: none !important;
+
+  font-size: 12px !important;
+
+  font-weight: 600 !important;
+}
+
+.online-therapy-button span {
+  font-size: 18px !important;
+}
+
+
+/* =====================================================
+   DESKTOP
+   ===================================================== */
+
+@media (min-width: 1000px) {
+
+  .online-therapy-image {
+    min-height: 430px !important;
+  }
+
+  .online-therapy-image img {
+    min-height: 430px !important;
+
+    object-fit: contain !important;
+  }
+
+  .online-therapy-stats {
+    margin-top: 8px !important;
+  }
+}
+
+
+/* =====================================================
+   TABLET
+   ===================================================== */
+
+@media (max-width: 999px) {
+
+  .online-therapy {
+    grid-template-columns: 1fr 1fr !important;
+
+    column-gap: 30px !important;
+
+    padding: 30px !important;
+  }
+
+  .online-therapy-content h2 {
+    font-size: 34px !important;
+  }
+}
+
+
+/* =====================================================
+   MOBILE
+   ===================================================== */
+
+@media (max-width: 700px) {
+
+  .online-therapy {
+    width: 94% !important;
+
+    grid-template-columns: 1fr !important;
+
+    gap: 30px !important;
+
+    padding: 22px !important;
+  }
+
+  .online-therapy-image {
+    min-height: 0 !important;
+  }
+
+  .online-therapy-image img {
+    min-height: 0 !important;
+  }
+
+  .online-therapy-content {
+    padding: 0 !important;
+  }
+
+  .online-therapy-content h2 {
+    font-size: 32px !important;
+  }
+
+  .online-therapy-stats {
+    width: 100% !important;
+  }
+}
+/* =========================================================
+   ONLINE THERAPY - CLEAN FINAL DESIGN
+   ========================================================= */
+
+.online-final {
+  width: 94%;
+  max-width: 1400px;
+
+  margin: 80px auto;
+
+  padding: 35px 40px 35px;
+
+  box-sizing: border-box;
+
+  display: grid;
+
+  grid-template-columns: 1.08fr 0.92fr;
+
+  column-gap: 55px;
+
+  align-items: start;
+
+  background: #f8f5fc;
+
+  border-radius: 30px;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   LEFT
+   ========================================================= */
+
+.online-final-left {
+  width: 100%;
+
+  min-width: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+
+/* =========================================================
+   IMAGE
+   ========================================================= */
+
+.online-final-image {
+  width: 100%;
+
+  max-width: 700px;
+
+  position: relative;
+
+  overflow: visible;
+
+  transform: rotate(-3deg);
+
+  border-radius: 30px;
+
+  z-index: 2;
+}
+
+.online-final-image img {
+  width: 100%;
+
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+
+  border-radius: 30px;
+}
+
+
+/* =========================================================
+   STATS
+   ========================================================= */
+
+.online-final-stats {
+  width: 94%;
+
+  max-width: 680px;
+
+  margin-top: 12px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.online-final-stat {
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  text-align: center;
+}
+
+.online-stat-icon {
+  width: 34px;
+
+  height: 34px;
+
+  margin-bottom: 3px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.online-stat-icon svg {
+  width: 31px;
+
+  height: 31px;
+
+  fill: none;
+
+  stroke: #67539a;
+
+  stroke-width: 1.8;
+
+  stroke-linecap: round;
+
+  stroke-linejoin: round;
+}
+
+.online-final-stat strong {
+  color: #67539a;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 23px;
+
+  line-height: 1.1;
+}
+
+.online-final-stat span {
+  margin-top: 5px;
+
+  color: #777281;
+
+  font-size: 10px;
+
+  white-space: nowrap;
+}
+
+.online-final-divider {
+  width: 1px;
+
+  height: 50px;
+
+  background: #d5cde1;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   RIGHT CONTENT
+   ========================================================= */
+
+.online-final-content {
+  width: 100%;
+
+  min-width: 0;
+
+  padding-top: 8px;
+}
+
+.online-final-label {
+  margin: 0 0 15px;
+
+  color: #67539a;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.online-final-content h2 {
+  margin: 0 0 20px;
+
+  color: #24202c;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 45px;
+
+  line-height: 1.08;
+
+  font-weight: 600;
+}
+
+.online-final-content h2 span {
+  color: #67539a;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+   ========================================================= */
+
+.online-final-description {
+  max-width: 600px;
+
+  margin: 0 0 28px;
+
+  color: #777281;
+
+  font-size: 13px;
+
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   FEATURES
+   ========================================================= */
+
+.online-final-features {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+
+  margin-bottom: 25px;
+}
+
+.online-final-feature {
+  display: flex;
+
+  align-items: center;
+
+  gap: 16px;
+}
+
+.online-feature-circle {
+  width: 54px;
+
+  height: 54px;
+
+  min-width: 54px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #eee8f8;
+}
+
+.online-feature-circle svg {
+  width: 27px;
+
+  height: 27px;
+
+  fill: none;
+
+  stroke: #67539a;
+
+  stroke-width: 1.7;
+
+  stroke-linecap: round;
+
+  stroke-linejoin: round;
+}
+
+.online-final-feature h3 {
+  margin: 0 0 5px;
+
+  color: #292531;
+
+  font-size: 14px;
+
+  line-height: 1.3;
+
+  font-weight: 700;
+}
+
+.online-final-feature p {
+  margin: 0;
+
+  color: #85808e;
+
+  font-size: 10px;
+
+  line-height: 1.45;
+}
+
+
+/* =========================================================
+   BUTTON
+   ========================================================= */
+
+.online-final-button {
+  width: 100%;
+
+  max-width: 450px;
+
+  min-height: 55px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 25px;
+
+  padding: 15px 28px;
+
+  border-radius: 40px;
+
+  background: #6b5b95;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  transition: transform 0.25s ease,
+              background 0.25s ease;
+}
+
+.online-final-button:hover {
+  background: #594a80;
+
+  transform: translateY(-2px);
+}
+
+.online-final-arrow {
+  font-size: 19px;
+}
+
+
+/* =========================================================
+   DESKTOP - MAKE IMAGE BIG
+   ========================================================= */
+
+@media (min-width: 1000px) {
+
+  .online-final-image {
+    max-width: 740px;
+  }
+
+  .online-final-image img {
+    width: 100%;
+  }
+
+  .online-final-stats {
+    margin-top: 8px;
+  }
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 999px) {
+
+  .online-final {
+    grid-template-columns: 1fr 1fr;
+
+    column-gap: 30px;
+
+    padding: 30px;
+  }
+
+  .online-final-content h2 {
+    font-size: 36px;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .online-final {
+    width: 94%;
+
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+
+    padding: 25px 20px;
+  }
+
+  .online-final-image {
+    max-width: 700px;
+  }
+
+  .online-final-content {
+    padding-top: 0;
+  }
+
+  .online-final-content h2 {
+    font-size: 32px;
+  }
+
+  .online-final-stats {
+    width: 100%;
+  }
+
+  .online-final-stat strong {
+    font-size: 18px;
+  }
+
+  .online-final-stat span {
+    font-size: 8px;
+  }
+}
+/* =========================================================
+   ONLINE THERAPY - BIG IMAGE FINAL FIX
+   ========================================================= */
+
+@media (min-width: 1000px) {
+
+  .online-final {
+    grid-template-columns: 1.18fr 0.82fr !important;
+    column-gap: 35px !important;
+    padding: 25px 30px 30px !important;
+  }
+
+  /* BIGGER LEFT IMAGE */
+  .online-final-left {
+    width: 100% !important;
+    min-width: 0 !important;
+    align-items: center !important;
+  }
+
+  .online-final-image {
+    width: 112% !important;
+    max-width: 850px !important;
+
+    margin-left: -25px !important;
+    margin-top: 0 !important;
+
+    position: relative !important;
+    z-index: 2 !important;
+
+    transform: rotate(-3deg) !important;
+  }
+
+  .online-final-image img {
+    width: 100% !important;
+    height: auto !important;
+
+    display: block !important;
+    object-fit: contain !important;
+    border-radius: 30px !important;
+  }
+
+  /* STATS STAY DIRECTLY UNDER BIG IMAGE */
+  .online-final-stats {
+    width: 100% !important;
+    max-width: 680px !important;
+    margin-top: 8px !important;
+  }
+
+  /* RIGHT SIDE */
+  .online-final-content {
+    padding-top: 20px !important;
+  }
+
+  .online-final-content h2 {
+    font-size: 45px !important;
+    line-height: 1.08 !important;
+  }
+
+  .online-final-description {
+    margin-bottom: 25px !important;
+  }
+
+  .online-final-features {
+    gap: 17px !important;
+    margin-bottom: 24px !important;
+  }
+
+  .online-final-button {
+    max-width: 100% !important;
+  }
+}
+/* =========================
+   NAVBAR LOGO
+   ========================= */
+
+.navbar .logo {
+  width: 220px !important;
+  height: 60px !important;
+  display: flex !important;
+  align-items: center !important;
+  overflow: hidden !important;
+  flex-shrink: 0 !important;
+}
+
+.navbar .logo img {
+  width: 220px !important;
+  height: auto !important;
+  max-width: 220px !important;
+  max-height: 60px !important;
+  display: block !important;
+  object-fit: contain !important;
+}
+/* =========================
+   NAVBAR LOGO - BIGGER
+   ========================= */
+
+.navbar .logo {
+  width: 250px !important;
+  height: 70px !important;
+  display: flex !important;
+  align-items: center !important;
+  overflow: visible !important;
+  flex-shrink: 0 !important;
+}
+
+.navbar .logo img {
+  width: 280px !important;
+  height: auto !important;
+
+  max-width: none !important;
+  max-height: none !important;
+
+  display: block !important;
+  object-fit: contain !important;
+}
+/* =========================
+   NEW HERO IMAGE
+   ========================= */
+
+.hero-image {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+}
+
+.hero-image img {
+  width: 100% !important;
+  max-width: 650px !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: contain !important;
+}
+/* =========================================
+   TESTIMONIALS - FINAL DESIGN
+   ========================================= */
+
+.testimonials-section {
+  padding: 90px 20px;
+  background-color: #ffffff;
+}
+
+.testimonials-header {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.testimonials-header h2 {
+  margin-top: 10px;
+  color: #24202c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 42px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+.testimonials-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.testimonial-card {
+  min-height: 400px;
+  padding: 40px 30px;
+  border: 1px solid #e1dbea;
+  background-color: #faf8fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(107, 91, 149, 0.12);
+}
+
+/* Purple quote */
+.testimonial-quote {
+  margin-bottom: 12px;
+  color: #7560a5;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 42px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+/* ⭐ Five stars */
+.testimonial-rating {
+  margin-bottom: 28px;
+  color: #c09a58;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+/* Testimonial text */
+.testimonial-text {
+  max-width: 310px;
+  margin: 0 auto;
+  color: #655f70;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Person */
+.testimonial-person {
+  margin-top: auto;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.testimonial-person strong {
+  color: #24202c;
+  font-size: 16px;
+}
+
+.testimonial-person span {
+  color: #8b8494;
+  font-size: 14px;
+}
+
+/* Controls */
+.testimonial-controls {
+  margin: 35px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.testimonial-control-button {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #d8d1e3;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #62528d;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.testimonial-control-button:hover {
+  background-color: #7560a5;
+  color: #ffffff;
+}
+
+.testimonial-dots {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.testimonial-dots span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #d8d2e4;
+}
+
+.testimonial-dots span.active {
+  width: 24px;
+  border-radius: 10px;
+  background-color: #7560a5;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+
+  .testimonials-header h2 {
+    font-size: 34px;
+  }
+}
+/* =========================================
+   TESTIMONIAL SLIDER
+   ========================================= */
+
+.testimonial-control-button {
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+.testimonial-control-button:hover {
+  background-color: #7560a5 !important;
+  border-color: #7560a5 !important;
+  color: #ffffff !important;
+  transform: scale(1.05);
+}
+
+.testimonial-dots span {
+  transition: all 0.3s ease !important;
+}
+
+.testimonial-dots span.active {
+  width: 24px !important;
+  background-color: #7560a5 !important;
+}
+
+
+/* Make cards transition smoothly when changing */
+.testimonial-card {
+  animation: testimonialFade 0.35s ease;
+}
+
+@keyframes testimonialFade {
+  from {
+    opacity: 0;
+    transform: translateX(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* =========================================
+   THERAPISTS SECTION
+   ========================================= */
+
+.therapists-section {
+  padding: 100px 5%;
+  background-color: #f8f5fc;
+}
+
+.therapists-header {
+  max-width: 1200px;
+  margin: 0 auto 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 50px;
+}
+
+.therapists-header h2 {
+  margin: 10px 0 0;
+  color: #24202c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 44px;
+  line-height: 1.12;
+}
+
+.therapists-header h2 span {
+  color: #7560a5;
+}
+
+.therapists-intro {
+  max-width: 420px;
+  margin: 0;
+  color: #777282;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.therapists-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.therapist-card {
+  overflow: hidden;
+  border: 1px solid #e2dced;
+  border-radius: 24px;
+  background-color: #ffffff;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.therapist-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 18px 40px rgba(107, 91, 149, 0.14);
+}
+
+.therapist-photo {
+  width: 100%;
+  height: 330px;
+  overflow: hidden;
+  background-color: #eee8f7;
+}
+
+.therapist-photo img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+  object-position: center top;
+
+  transition: transform 0.4s ease;
+}
+
+.therapist-card:hover .therapist-photo img {
+  transform: scale(1.04);
+}
+
+.therapist-content {
+  padding: 28px;
+}
+
+.therapist-role {
+  margin: 0 0 8px;
+
+  color: #7560a5;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.therapist-content h3 {
+  margin: 0 0 14px;
+
+  color: #24202c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+}
+
+.therapist-description {
+  margin: 0 0 24px;
+
+  color: #777282;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.therapist-button {
+  padding: 11px 18px;
+
+  border: 1px solid #7560a5;
+  border-radius: 30px;
+
+  background-color: transparent;
+  color: #7560a5;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.therapist-button:hover {
+  background-color: #7560a5;
+  color: #ffffff;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 850px) {
+  .therapists-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .therapists-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+
+  .therapists-header h2 {
+    font-size: 36px;
+  }
+}
+/* =========================================
+   THERAPISTS HEADER - FINAL ALIGNMENT
+   ========================================= */
+
+.therapists-header {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto 55px !important;
+
+  display: grid !important;
+  grid-template-columns: 1.15fr 0.85fr !important;
+
+  align-items: center !important;
+  column-gap: 70px !important;
+}
+
+.therapists-header > div {
+  width: 100% !important;
+  min-width: 0 !important;
+  text-align: left !important;
+}
+
+.therapists-header .section-label {
+  text-align: left !important;
+  margin-bottom: 12px !important;
+}
+
+.therapists-header h2 {
+  width: 100% !important;
+  max-width: 650px !important;
+
+  margin: 0 !important;
+
+  color: #24202c !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+
+  font-size: 46px !important;
+  line-height: 1.08 !important;
+  font-weight: 600 !important;
+
+  text-align: left !important;
+}
+
+.therapists-header h2 span {
+  color: #7560a5 !important;
+}
+
+.therapists-intro {
+  width: 100% !important;
+  max-width: 520px !important;
+
+  margin: 0 !important;
+
+  color: #777282 !important;
+
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+
+  text-align: left !important;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 850px) {
+  .therapists-header {
+    grid-template-columns: 1fr !important;
+    row-gap: 25px !important;
+  }
+
+  .therapists-header h2 {
+    font-size: 38px !important;
+  }
+
+  .therapists-intro {
+    max-width: 100% !important;
+  }
+}
+/* =========================================
+   FOOTER
+   ========================================= */
+/* =========================================
+   MIND MANAS - NEW FOOTER
+   ========================================= */
+
+.site-footer {
+  background: #75659d;
+  color: #ffffff;
+  padding: 75px 5% 25px;
+  margin-top: 0;
+}
+
+.footer-top {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr 1fr 1.2fr;
+  gap: 55px;
+  padding-bottom: 65px;
+}
+
+.footer-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo-image {
+  width: 210px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  margin-bottom: 25px;
+  filter: brightness(0) invert(1);
+}
+
+.footer-intro > p {
+  max-width: 280px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.footer-top-button {
+  margin-top: 30px;
+  padding: 11px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  background: transparent;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-top-button:hover {
+  background: #ffffff;
+  color: #75659d;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.footer-column h4 {
+  margin: 0 0 12px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #e9e2f5;
+}
+
+.footer-column a {
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.footer-column a:hover {
+  color: #ffffff;
+  transform: translateX(4px);
+}
+
+.footer-contact p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.footer-contact a:not(.footer-appointment) {
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footer-contact a:not(.footer-appointment):hover {
+  color: #ffffff;
+}
+
+.footer-appointment {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 13px 20px;
+  border-radius: 30px;
+  background: #f5f0e9;
+  color: #75659d !important;
+  font-weight: 600;
+  transform: none !important;
+}
+
+.footer-appointment:hover {
+  background: #ffffff;
+  transform: translateY(-2px) !important;
+}
+
+.footer-appointment span {
+  font-size: 18px;
+}
+
+.footer-bottom {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding-top: 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-bottom p:last-child {
+  text-align: right;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-socials span {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+
+.footer-socials span:hover {
+  color: #ffffff;
+}
+
+
+/* =========================================
+   FOOTER - MOBILE
+   ========================================= */
+
+@media (max-width: 900px) {
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 45px 35px;
+  }
+
+  .footer-bottom {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .footer-bottom p:last-child {
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-footer {
+    padding: 55px 7% 25px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-logo-image {
+    width: 190px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+/* =========================================
+   TRUSTED ORGANIZATIONS
+   ========================================= */
+
+.trusted-organizations {
+  background: #f8f5f1;
+  padding: 75px 5%;
+  text-align: center;
+}
+
+.trusted-label {
+  margin: 0 0 45px;
+  color: #75659d;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.trusted-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 45px;
+  row-gap: 30px;
+}
+
+.trusted-item {
+  padding: 18px 10px;
+  color: #625b69;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  border-bottom: 1px solid #dcd5e3;
+  transition: color 0.3s ease;
+}
+
+.trusted-item:hover {
+  color: #75659d;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+  .trusted-grid {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .trusted-organizations {
+    padding: 55px 6%;
+  }
+
+  .trusted-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .trusted-item {
+    font-size: 15px;
+  }
+}
+/* =========================================
+   FINAL THERAPY METHODS
+   ========================================= */
+
+.therapy-methods {
+  width: 100% !important;
+  background: #f8f5f1 !important;
+  padding: 75px 5% 85px !important;
+  box-sizing: border-box !important;
+}
+
+.therapy-methods-title {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto 55px !important;
+  text-align: center !important;
+}
+
+.therapy-methods-title p {
+  margin: 0 0 15px !important;
+  color: #75659d !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  letter-spacing: 3px !important;
+}
+
+.therapy-methods-title h1 {
+  margin: 0 !important;
+  color: #17151b !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 48px !important;
+  font-weight: 500 !important;
+  line-height: 1.1 !important;
+}
+
+.therapy-methods-grid {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+
+  display: grid !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+
+  column-gap: 45px !important;
+  row-gap: 0 !important;
+
+  box-sizing: border-box !important;
+}
+
+.therapy-method-item {
+  width: 100% !important;
+  min-height: 105px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  text-align: center !important;
+
+  border-bottom: 1px solid #ddd6e4 !important;
+  box-sizing: border-box !important;
+}
+
+.therapy-method-item h3 {
+  margin: 0 !important;
+  max-width: 190px !important;
+
+  color: #5f527d !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+  .therapy-methods-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    column-gap: 25px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .therapy-methods {
+    padding: 55px 6% !important;
+  }
+
+  .therapy-methods-title h1 {
+    font-size: 38px !important;
+  }
+
+  .therapy-methods-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    column-gap: 15px !important;
+  }
+
+  .therapy-method-item {
+    min-height: 90px !important;
+  }
+
+  .therapy-method-item h3 {
+    font-size: 15px !important;
+  }
+}
