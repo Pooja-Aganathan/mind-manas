@@ -1,5 +1,6 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -10,6 +11,24 @@ import Contact from "./pages/Contact";
 import GetFamiliarized from "./pages/GetFamiliarized";
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const path = location.pathname;
+
+    if (path === "/") {
+      document.title = "Home - Mind And Manas";
+    } else if (path === "/about") {
+      document.title = "About Us - Mind And Manas";
+    } else if (path === "/contact") {
+      document.title = "Contact - Mind And Manas";
+    } else if (path === "/get-familiarized") {
+      document.title = "Get Familiarized - Mind And Manas";
+    } else {
+      document.title = "Mind And Manas";
+    }
+  }, [location.pathname]);
+
   return (
     <>
       <Navbar />
