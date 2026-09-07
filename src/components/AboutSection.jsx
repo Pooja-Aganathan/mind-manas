@@ -1,14 +1,11 @@
 function AboutSection() {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
+      <div className="about-content">
 
-      <div className="about-section-label">
-        ABOUT MIND & MANAS
-      </div>
+        <div className="about-left">
+          <p className="about-label">ABOUT MIND & MANAS</p>
 
-      <div className="about-section-content">
-
-        <div className="about-section-heading">
           <h2>
             Understanding the mind.
             <br />
@@ -16,7 +13,7 @@ function AboutSection() {
           </h2>
         </div>
 
-        <div className="about-section-text">
+        <div className="about-right">
           <p>
             Mind & Manas is a premier center for Psychological counseling,
             therapy and coaching in Chennai.
@@ -24,14 +21,12 @@ function AboutSection() {
 
           <p>
             We provide exceptional mental health services for children,
-            adults, couples, and families. Our experienced therapists
-            strive to create a space where people feel understood,
-            heard, and accepted.
+            adults, couples, and families. Our experienced therapists strive
+            to create a space where people feel understood, heard, and accepted.
           </p>
         </div>
 
       </div>
-
     </section>
   );
 }

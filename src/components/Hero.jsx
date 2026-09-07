@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section className="hero">
 
-      {/* LEFT CONTENT */}
+      {/* Left Content */}
       <div className="hero-content">
 
         <p className="hero-tagline">
@@ -22,7 +22,7 @@ function Hero() {
 
         <p className="hero-description">
           Professional mental health support designed around you,
-          <br />
+          <br className="desktop-break" />
           your experiences, and your journey.
         </p>
 
@@ -44,10 +44,14 @@ function Hero() {
 
         </div>
 
+        {/* Three Features */}
         <div className="hero-features">
 
           <div className="hero-feature">
-            <div className="feature-icon">♡</div>
+            <div className="feature-icon">
+              ♡
+            </div>
+
             <p>
               Compassionate
               <br />
@@ -56,7 +60,10 @@ function Hero() {
           </div>
 
           <div className="hero-feature">
-            <div className="feature-icon">♧</div>
+            <div className="feature-icon">
+              ♧
+            </div>
+
             <p>
               Empathetic
               <br />
@@ -65,7 +72,10 @@ function Hero() {
           </div>
 
           <div className="hero-feature">
-            <div className="feature-icon">◌</div>
+            <div className="feature-icon">
+              ◌
+            </div>
+
             <p>
               Tailored
               <br />
@@ -74,18 +84,14 @@ function Hero() {
           </div>
 
         </div>
-
       </div>
 
-
-      {/* RIGHT IMAGE */}
+      {/* Right Illustration */}
       <div className="hero-image">
-
         <img
           src={homepageImage}
-          alt="Mind Manas mental wellness"
+          alt="Mind and Manas mental wellness"
         />
-
       </div>
 
     </section>
