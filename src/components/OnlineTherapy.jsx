@@ -1,4 +1,4 @@
-import onlineTherapyImage from "../assets/OnlineTherapy.png";
+import onlineTherapyImage from "../assets/Onlinetherapy.png";
 
 function OnlineTherapy() {
   return (
