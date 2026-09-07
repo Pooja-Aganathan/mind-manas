@@ -9880,3 +9880,26 @@ body,
           brightness(91%)
           contrast(91%) !important;
 }
+/* =========================================================
+   MOBILE HAMBURGER - RIGHT SIDE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .navbar {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .mobile-menu-button {
+    display: flex !important;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    order: 2 !important;
+  }
+
+  .logo {
+    order: 1 !important;
+  }
+}
