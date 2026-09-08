@@ -1,18 +1,29 @@
 import { useEffect, useState } from "react";
+import bridgestoneLogo from "../assets/organizations/Bridgestone.png";
+import licLogo from "../assets/organizations/LIC India.png";
+import ivyLogo from "../assets/organizations/IVY Mobility Solutions.png";
+import avnlLogo from "../assets/organizations/AVNL India.png";
+import chennaiPublicSchoolLogo from "../assets/organizations/Chennai Public School.png";
+import denaBankLogo from "../assets/organizations/Dena Bank.png";
+import unitedIndiaInsuranceLogo from "../assets/organizations/United India Insurance.png";
+import aceHuntersLogo from "../assets/organizations/Ace Hunters.png";
+import vCreateITLogo from "../assets/organizations/V Create IT.png";
+import strategyNxtgenLogo from "../assets/organizations/Strategy Nxtgen.png";
 
 function TrustedOrganizations() {
   const organizations = [
-    { name: "Bridgestone", logo: "/src/assets/organizations/Bridgestone.png" },
-    { name: "LIC India", logo: "/src/assets/organizations/LIC India.png" },
-    { name: "IVY Mobility Solutions", logo: "/src/assets/organizations/IVY Mobility Solutions.png" },
-    { name: "AVNL India", logo: "/src/assets/organizations/AVNL India.png" },
-    { name: "Chennai Public School", logo: "/src/assets/organizations/Chennai Public School.png" },
-    { name: "Dena Bank", logo: "/src/assets/organizations/Dena Bank.png" },
-    { name: "United India Insurance", logo: "/src/assets/organizations/United India Insurance.png" },
-    { name: "Ace Hunters", logo: "/src/assets/organizations/Ace Hunters.png" },
-    { name: "V Create IT", logo: "/src/assets/organizations/V Create IT.png" },
-    { name: "Strategy Nxtgen", logo: "/src/assets/organizations/Strategy Nxtgen.png" },
-  ];
+  { name: "Bridgestone", logo: bridgestoneLogo },
+  { name: "LIC India", logo: licLogo },
+  { name: "IVY Mobility Solutions", logo: ivyLogo },
+  { name: "AVNL India", logo: avnlLogo },
+  { name: "Chennai Public School", logo: chennaiPublicSchoolLogo },
+  { name: "Dena Bank", logo: denaBankLogo },
+  { name: "United India Insurance", logo: unitedIndiaInsuranceLogo },
+  { name: "Ace Hunters", logo: aceHuntersLogo },
+  { name: "V Create IT", logo: vCreateITLogo },
+  { name: "Strategy Nxtgen", logo: strategyNxtgenLogo },
+];
+  
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [startIndex, setStartIndex] = useState(0);
