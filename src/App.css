@@ -10581,16 +10581,7 @@ body,
   font-size: 14px !important;
   line-height: 1.6 !important;
 }
-<iframe
-  src="https://www.google.com/maps?q=Mind%20and%20Manas%2C%20Chennai&output=embed"
-  width="100%"
-  height="400"
-  style={{ border: 0 }}
-  allowFullScreen=""
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
-  title="Mind and Manas Location"
-></iframe>
+
 /* Remove Head Office & Branch Office location/building icons */
 .contact-office-icon {
   display: none !important;
