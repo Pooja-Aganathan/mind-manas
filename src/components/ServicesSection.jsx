@@ -35,7 +35,6 @@ function ServicesSection() {
 
   return (
     <section className="services-section" id="services">
-
       <div className="services-header">
         <div>
           <p className="section-label">WHAT WE DO</p>
@@ -55,30 +54,18 @@ function ServicesSection() {
       </div>
 
       <div className="services-grid">
-
         {services.map((service) => (
           <div className="service-card" key={service.title}>
-
             <div className="service-card-circle"></div>
 
             <div className="service-icon">
-              <img
-                src={service.icon}
-                alt={service.title}
-              />
+              <img src={service.icon} alt={service.title} />
             </div>
 
             <h3>{service.title}</h3>
-
-            <div className="service-arrow">
-              ↗
-            </div>
-
           </div>
         ))}
-
       </div>
-
     </section>
   );
 }

@@ -1,173 +1,189 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function TestimonialsSection() {
   const testimonials = [
     {
-      quote:
-        "The support and guidance I received helped me understand myself better and move forward with confidence.",
       name: "Revathi M.",
       role: "Home Maker",
+      text: "The support and guidance I received helped me understand myself better and move forward with confidence.",
     },
     {
-      quote:
-        "The sessions provided a comfortable space where I could openly talk about my concerns and work through them.",
       name: "Reena S.",
       role: "IT Professional",
+      text: "The sessions provided a comfortable space where I could openly talk about my concerns and work through them.",
     },
     {
-      quote:
-        "I felt heard and understood throughout the process. The guidance was practical and genuinely helpful.",
       name: "Arthi R.",
       role: "Student",
+      text: "I felt heard and understood throughout the process. The guidance was practical and genuinely helpful.",
     },
     {
-      quote:
-        "I felt comfortable from the very beginning. The sessions helped me handle everyday challenges with a clearer mind.",
-      name: "Shara S.",
+      name: "Kavya P.",
       role: "Teacher",
+      text: "The sessions helped me manage my thoughts better and gave me the confidence to handle difficult situations.",
     },
     {
-      quote:
-        "The guidance helped me understand my emotions better and approach difficult situations with more confidence.",
-      name: "Gowtham V.",
-      role: "Software Engineer",
+      name: "Sanjay K.",
+      role: "Software Professional",
+      text: "I appreciated the supportive approach and the comfortable environment. It helped me look at things with a clearer perspective.",
     },
     {
-      quote:
-        "It was a safe and supportive space where I could speak openly and work towards positive changes in my life.",
-      name: "Kavitha M.",
+      name: "Meena R.",
+      role: "Working Professional",
+      text: "The guidance was thoughtful and easy to understand. I felt comfortable sharing my concerns throughout the sessions.",
+    },
+    {
+      name: "Rahul S.",
       role: "Business Professional",
+      text: "The sessions helped me understand my emotions and work through challenges in a calm and positive way.",
+    },
+    {
+      name: "Divya N.",
+      role: "College Student",
+      text: "I felt comfortable from the beginning. The sessions helped me gain a better understanding of myself and my goals.",
+    },
+    {
+      name: "Priya V.",
+      role: "HR Professional",
+      text: "The support I received was compassionate and practical. It helped me approach my personal challenges with more confidence.",
     },
   ];
 
-  const [currentPage, setCurrentPage] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 800);
 
-  const testimonialsPerPage = 3;
-  const totalPages = Math.ceil(
-    testimonials.length / testimonialsPerPage
-  );
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 800);
+      setCurrentIndex(0);
+    };
 
-  const startIndex = currentPage * testimonialsPerPage;
+    window.addEventListener("resize", handleResize);
 
-  const visibleTestimonials = testimonials.slice(
-    startIndex,
-    startIndex + testimonialsPerPage
-  );
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
-  const nextTestimonials = () => {
-    setCurrentPage((prev) =>
-      prev < totalPages - 1 ? prev + 1 : 0
-    );
+  /* MOBILE - automatic slider every 3 seconds */
+  useEffect(() => {
+    if (!isMobile) return;
+
+    const interval = setInterval(() => {
+      setCurrentIndex((current) =>
+        current === testimonials.length - 1 ? 0 : current + 1
+      );
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [isMobile, testimonials.length]);
+
+  /* NEXT */
+  const nextTestimonial = () => {
+    if (isMobile) {
+      setCurrentIndex((current) =>
+        current === testimonials.length - 1 ? 0 : current + 1
+      );
+    } else {
+      setCurrentIndex((current) => {
+        if (current === 0) return 3;
+        if (current === 3) return 6;
+        return 0;
+      });
+    }
   };
 
-  const previousTestimonials = () => {
-    setCurrentPage((prev) =>
-      prev > 0 ? prev - 1 : totalPages - 1
-    );
+  /* PREVIOUS */
+  const previousTestimonial = () => {
+    if (isMobile) {
+      setCurrentIndex((current) =>
+        current === 0 ? testimonials.length - 1 : current - 1
+      );
+    } else {
+      setCurrentIndex((current) => {
+        if (current === 0) return 6;
+        if (current === 3) return 0;
+        return 3;
+      });
+    }
   };
+
+  /* DESKTOP = 3 cards
+     MOBILE = 1 card */
+  const displayedTestimonials = isMobile
+    ? [testimonials[currentIndex]]
+    : testimonials.slice(currentIndex, currentIndex + 3);
 
   return (
     <section className="testimonials-section">
-
-      {/* HEADER */}
       <div className="testimonials-header">
         <p className="section-label">TESTIMONIALS</p>
 
         <h2>
-          Stories from people
+          Hear from people
           <br />
-          we’ve supported.
+          <span>we’ve supported.</span>
         </h2>
       </div>
 
-
-      {/* TESTIMONIAL CARDS */}
       <div className="testimonials-grid">
+        {displayedTestimonials.map((testimonial) => (
+          <div className="testimonial-card" key={testimonial.name}>
+            <div className="testimonial-quote">“</div>
 
-        {visibleTestimonials.map((testimonial, index) => (
-          <div
-            className="testimonial-card"
-            key={testimonial.name}
-          >
-
-            {/* QUOTE */}
-            <div className="testimonial-quote">
-              “
-            </div>
-
-
-            {/* RATING */}
             <div className="testimonial-rating">
               ★ ★ ★ ★ ★
             </div>
 
-
-            {/* TESTIMONIAL */}
             <p className="testimonial-text">
-              {testimonial.quote}
+              {testimonial.text}
             </p>
 
-
-            {/* PERSON */}
             <div className="testimonial-person">
-              <strong>
-                {testimonial.name}
-              </strong>
-
-              <span>
-                {testimonial.role}
-              </span>
+              <strong>{testimonial.name}</strong>
+              <span>{testimonial.role}</span>
             </div>
-
           </div>
         ))}
-
       </div>
 
-
-      {/* CONTROLS */}
       <div className="testimonial-controls">
-
         <button
           type="button"
           className="testimonial-control-button"
-          onClick={previousTestimonials}
-          aria-label="Previous testimonials"
+          onClick={previousTestimonial}
+          aria-label="Previous testimonial"
         >
           ←
         </button>
 
-
-        {/* DOTS */}
         <div className="testimonial-dots">
-
-          {Array.from({ length: totalPages }).map(
-            (_, index) => (
-              <span
-                key={index}
-                className={
-                  index === currentPage
-                    ? "active"
-                    : ""
-                }
-              ></span>
-            )
-          )}
-
+          {isMobile
+            ? testimonials.map((_, index) => (
+                <span
+                  key={index}
+                  className={currentIndex === index ? "active" : ""}
+                  onClick={() => setCurrentIndex(index)}
+                ></span>
+              ))
+            : [0, 3, 6].map((index) => (
+                <span
+                  key={index}
+                  className={currentIndex === index ? "active" : ""}
+                  onClick={() => setCurrentIndex(index)}
+                ></span>
+              ))}
         </div>
-
 
         <button
           type="button"
           className="testimonial-control-button"
-          onClick={nextTestimonials}
-          aria-label="Next testimonials"
+          onClick={nextTestimonial}
+          aria-label="Next testimonial"
         >
           →
         </button>
-
       </div>
-
     </section>
   );
 }

@@ -9950,3 +9950,2582 @@ body,
     z-index: 10000 !important;
   }
 }
+/* =========================================================
+   DESKTOP - COMMON CONTAINER
+   ========================================================= */
+
+@media (min-width: 901px) {
+
+  /* Navbar content */
+  .navbar {
+    padding-left: max(40px, calc((100vw - 1200px) / 2)) !important;
+    padding-right: max(40px, calc((100vw - 1200px) / 2)) !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Hero content */
+  .hero {
+    padding-left: max(40px, calc((100vw - 1200px) / 2)) !important;
+    padding-right: max(40px, calc((100vw - 1200px) / 2)) !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Main section containers */
+  .services-header,
+  .services-grid,
+  .about-content,
+  .therapists-header,
+  .therapists-grid,
+  .testimonials-header,
+  .testimonials-grid,
+  .getting-started-header,
+  .steps-container,
+  .trusted-header,
+  .trusted-grid,
+  .therapy-methods-grid {
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+}
+@media (min-width: 901px) {
+  .online-final {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+}
+/* =========================================================
+   ONLINE THERAPY - FULL WIDTH GREEN BACKGROUND
+   ========================================================= */
+
+.online-final {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+
+  background: #eef8f3 !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* Keep content nicely positioned inside the full-width section */
+@media (min-width: 901px) {
+  .online-final {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 900px) {
+  .online-final {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    background: #eef8f3 !important;
+  }
+}
+/* =========================================================
+   COMMON DESKTOP CONTAINER - ALL SECTIONS
+   ========================================================= */
+
+@media (min-width: 901px) {
+
+  /* Common content width */
+  .navbar,
+  .hero,
+  .intro-section,
+  .about-section,
+  .services-section,
+  .online-final,
+  .trusted-organizations,
+  .testimonials-section,
+  .getting-started,
+  .therapists-section,
+  .therapy-methods,
+  .contact-section {
+    box-sizing: border-box !important;
+  }
+
+  /* Section content containers */
+  .hero-content,
+  .intro-content,
+  .about-content,
+  .services-header,
+  .services-grid,
+  .online-final,
+  .trusted-header,
+  .trusted-grid,
+  .testimonials-header,
+  .testimonials-grid,
+  .getting-started-header,
+  .steps-container,
+  .therapists-header,
+  .therapists-grid,
+  .therapy-methods-grid {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE - FULL AVAILABLE WIDTH WITH SAFE PADDING
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .hero-content,
+  .intro-content,
+  .about-content,
+  .services-header,
+  .services-grid,
+  .trusted-header,
+  .trusted-grid,
+  .testimonials-header,
+  .testimonials-grid,
+  .getting-started-header,
+  .steps-container,
+  .therapists-header,
+  .therapists-grid,
+  .therapy-methods-grid {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+}
+/* =========================================================
+   CONTACT - FULL WIDTH GREEN BACKGROUND
+   ========================================================= */
+
+.contact-section {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  background: #eef8f3 !important;
+  box-sizing: border-box !important;
+}
+/* =========================================================
+   CONTACT PAGE - FULL WIDTH BACKGROUND + CONTAINER
+   ========================================================= */
+
+.contact-hero {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  background: #eef8f3 !important;
+  box-sizing: border-box !important;
+}
+
+/* Contact content container */
+.contact-hero > * {
+  box-sizing: border-box !important;
+}
+
+@media (min-width: 901px) {
+  .contact-hero {
+    padding-left: max(40px, calc((100vw - 1200px) / 2)) !important;
+    padding-right: max(40px, calc((100vw - 1200px) / 2)) !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .contact-hero {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+/* =========================================================
+   CONTACT HERO - FIX CONTAINER
+   ========================================================= */
+
+.contact-hero {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 70px 0 65px !important;
+  background: #eef8f3 !important;
+  box-sizing: border-box !important;
+}
+
+/* Do NOT force every direct child into a container */
+.contact-hero > * {
+  width: auto !important;
+  max-width: none !important;
+  margin-left: initial !important;
+  margin-right: initial !important;
+}
+
+
+/* Desktop container alignment */
+@media (min-width: 901px) {
+
+  .contact-hero {
+    padding-left: max(40px, calc((100vw - 1200px) / 2)) !important;
+    padding-right: max(40px, calc((100vw - 1200px) / 2)) !important;
+  }
+
+}
+
+
+/* Mobile */
+@media (max-width: 900px) {
+
+  .contact-hero {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+}
+/* ONLINE THERAPY - GREEN BACKGROUND */
+
+.online-final {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  background: #eef8f3 !important;
+  box-sizing: border-box !important;
+}
+/* =========================================================
+   FOOTER - KEEP ALL CONTENT INSIDE SAME CONTAINER
+   ========================================================= */
+
+@media (min-width: 901px) {
+
+  .footer-top {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .footer-bottom {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+}
+/* Center "A LITTLE ABOUT US" */
+.about-label {
+  text-align: center !important;
+}
+/* =========================================================
+   LITTLE ABOUT US - CENTER CONTENT
+   ========================================================= */
+
+.about-section .about-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+.about-section .about-left {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.about-section .about-right {
+  width: 100% !important;
+  max-width: 850px !important;
+  padding-top: 0 !important;
+  text-align: center !important;
+}
+
+.about-section .about-right p {
+  text-align: center !important;
+}
+
+.about-section .about-label {
+  text-align: center !important;
+}
+/* =========================================================
+   ABOUT SECTION - SAME CENTERED CONTAINER
+   ========================================================= */
+
+.about-section {
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.about-content {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Keep the two-column layout inside the container */
+@media (min-width: 901px) {
+  .about-content {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 80px !important;
+    align-items: start !important;
+  }
+
+  .about-left {
+    width: 100% !important;
+    text-align: left !important;
+  }
+
+  .about-right {
+    width: 100% !important;
+    text-align: left !important;
+    padding-top: 5px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .about-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100% !important;
+    text-align: center !important;
+  }
+}
+/* =========================================================
+   ALIGN HEADER & FOOTER LOGOS WITH CONTAINER START
+   ========================================================= */
+
+@media (min-width: 901px) {
+
+  /* Header logo only */
+  .navbar .logo {
+    position: relative !important;
+    left: -15px !important;
+  }
+
+  /* Footer logo + description only */
+  .footer-intro {
+    position: relative !important;
+    left: 30px !important;
+  }
+
+}
+/* Move footer logo section to the left */
+@media (min-width: 901px) {
+  .footer-intro {
+    position: relative !important;
+    left: 0 !important;
+    transform: translateX(-30px) !important;
+  }
+}
+@media (min-width: 901px) {
+  .about-content {
+    padding-left: 10px !important;
+    box-sizing: border-box !important;
+  }
+}
+/* =========================================================
+   ABOUT SECTION - KEEP INSIDE SAME CONTAINER
+   ========================================================= */
+
+@media (min-width: 901px) {
+  .about-section {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .about-content {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+}
+/* =========================================================
+   HOME - A LITTLE ABOUT US
+   SAME DESKTOP CONTAINER
+   ========================================================= */
+
+@media (min-width: 901px) {
+
+  .about-section {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .about-section .about-content {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+
+  /* =======================================================
+     FOOTER - SAME CONTAINER
+     ======================================================= */
+
+  .site-footer .footer-top,
+  .site-footer .footer-bottom {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+}
+/* =========================================================
+   FINAL CONTAINER ALIGNMENT
+   HOME - A LITTLE ABOUT US + FOOTER
+   ========================================================= */
+
+@media (min-width: 901px) {
+
+  /* A LITTLE ABOUT US */
+  .about-section .about-content {
+    width: calc(100% - 116px) !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* FOOTER */
+  .site-footer .footer-top {
+    width: calc(100% - 116px) !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .site-footer .footer-bottom {
+    width: calc(100% - 116px) !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Remove the previous left movement */
+  .site-footer .footer-intro {
+    left: 0 !important;
+    transform: none !important;
+  }
+}
+/* =========================================================
+   FOOTER LOGO - ALIGN TO CONTAINER START
+   ========================================================= */
+
+@media (min-width: 901px) {
+  .site-footer .footer-intro {
+    position: relative !important;
+    left: -40px !important;
+    transform: none !important;
+  }
+}
+@media (min-width: 901px) {
+  .about-section .about-label {
+    position: relative !important;
+    left: 10px !important;
+  }
+}
+/* Align A LITTLE ABOUT US exactly inside container */
+@media (min-width: 901px) {
+  .about-section .about-label {
+    transform: translateX(15px) !important;
+    margin-left: 0 !important;
+  }
+}
+/* FINAL FIX - MOVE ONLY A LITTLE ABOUT US INSIDE CONTAINER */
+
+@media (min-width: 901px) {
+  .about-section .about-left .about-label {
+    position: relative !important;
+    left: 15px !important;
+    transform: none !important;
+    margin-left: 0 !important;
+    display: block !important;
+  }
+}
+/* Move only the About left content slightly inside the container */
+@media (min-width: 901px) {
+  .about-section .about-left {
+    position: relative !important;
+    left: 8px !important;
+  }
+}
+/* Move the complete left About content inside the container */
+@media (min-width: 901px) {
+  .about-section .about-left {
+    position: relative !important;
+    left: 12px !important;
+  }
+}
+/* =========================================================
+   HOME - A LITTLE ABOUT US
+   ALIGN LABEL INSIDE CONTAINER
+   ========================================================= */
+
+@media (min-width: 901px) {
+  .intro-section .intro-label,
+  .intro-section .section-label,
+  .intro-section p:first-child {
+    position: relative !important;
+    left: 14px !important;
+  }
+}
+/* =========================================================
+   CONTACT PAGE - CORRECT CONTAINER ALIGNMENT
+   ========================================================= */
+
+@media (min-width: 901px) {
+
+  .contact-hero,
+  .contact-page {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .contact-hero > *,
+  .contact-page > * {
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Contact hero content */
+  .contact-hero-content {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Office cards + form */
+  .contact-info-section,
+  .contact-content,
+  .contact-grid {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Location section */
+  .contact-location,
+  .location-section {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+}
+/* =========================================================
+   CONTACT - FULL WIDTH GREEN BACKGROUND
+   KEEP EXISTING CONTAINER UNCHANGED
+   ========================================================= */
+
+/* CONTACT FULL PAGE BACKGROUND ONLY */
+.contact-hero,
+.contact-page,
+.contact-section {
+  background: #eef8f3 !important;
+}
+/* Contact office icons - smaller */
+.contact-office-icon {
+  width: 42px !important;
+  height: 42px !important;
+}
+
+.contact-office-icon svg {
+  width: 17px !important;
+  height: 17px !important;
+}
+.contact-office-card p,
+.contact-office-card a {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+}
+<iframe
+  src="https://www.google.com/maps?q=Mind%20and%20Manas%2C%20Chennai&output=embed"
+  width="100%"
+  height="400"
+  style={{ border: 0 }}
+  allowFullScreen=""
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  title="Mind and Manas Location"
+></iframe>
+/* Remove Head Office & Branch Office location/building icons */
+.contact-office-icon {
+  display: none !important;
+}
+.office-icon {
+  display: none !important;
+}
+/* =========================================
+   TRUSTED ORGANIZATIONS - PAGE SLIDER
+========================================= */
+
+.trusted-slider {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trusted-grid {
+  width: 100%;
+  max-width: none !important;
+
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 18px;
+
+  overflow: hidden;
+}
+
+.trusted-item {
+  min-width: 0;
+}
+
+
+/* SLIDER DOTS */
+
+.trusted-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 8px;
+
+  margin-top: 28px;
+}
+
+.trusted-dot {
+  width: 8px;
+  height: 8px;
+
+  padding: 0;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #b8d8cf;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.trusted-dot.active {
+  width: 24px;
+  border-radius: 10px;
+  background: #087d66;
+}
+
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .trusted-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .trusted-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .trusted-dots {
+    margin-top: 22px;
+  }
+
+}
+/* =========================================
+   TRUSTED ORGANIZATIONS SLIDER
+========================================= */
+
+.trusted-slider {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trusted-grid {
+  width: 100%;
+  max-width: none !important;
+
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 18px;
+
+  overflow: hidden;
+}
+
+.trusted-item {
+  min-width: 0;
+}
+
+
+/* CONTROLS */
+
+.trusted-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 24px;
+
+  margin-top: 32px;
+}
+
+
+/* ARROWS */
+
+.trusted-arrow {
+  width: 46px;
+  height: 46px;
+
+  border: 1px solid #b9ded5;
+  border-radius: 50%;
+
+  background: #ffffff;
+  color: #087d66;
+
+  font-size: 23px;
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+.trusted-arrow:hover {
+  background: #087d66;
+  color: #ffffff;
+  border-color: #087d66;
+}
+
+
+/* DOTS */
+
+.trusted-dots {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trusted-dot {
+  width: 8px;
+  height: 8px;
+
+  padding: 0;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #c6e1da;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.trusted-dot.active {
+  width: 24px;
+  border-radius: 10px;
+
+  background: #087d66;
+}
+
+@media (max-width: 600px) {
+
+  .trusted-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .trusted-controls {
+    gap: 18px;
+    margin-top: 24px;
+  }
+
+  .trusted-arrow {
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+  }
+
+}
+/* TRUSTED ORGANIZATIONS SLIDER */
+
+.trusted-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.trusted-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.trusted-item {
+  min-width: 0;
+}
+
+.trusted-logo {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 25px;
+  overflow: hidden;
+}
+
+.trusted-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.trusted-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.trusted-arrow {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #17352d;
+  border-radius: 50%;
+  background: transparent;
+  color: #17352d;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.trusted-arrow:hover {
+  background: #17352d;
+  color: #ffffff;
+}
+
+.trusted-dots {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trusted-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: #b8cbc4;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.trusted-dot.active {
+  width: 24px;
+  border-radius: 10px;
+  background: #087d66;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .trusted-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .trusted-logo {
+    height: 125px;
+    padding: 18px;
+  }
+
+  .trusted-controls {
+    gap: 18px;
+    margin-top: 24px;
+  }
+
+  .trusted-arrow {
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+  }
+}
+.trusted-name {
+  margin: 14px 0 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #526861;
+}
+/* TESTIMONIAL CARD - COMPACT STYLE */
+
+.testimonial-card {
+  min-height: 0 !important;
+  height: auto !important;
+  padding: 28px 30px 25px !important;
+  border-radius: 18px !important;
+}
+
+.testimonial-quote {
+  margin-top: 15px !important;
+}
+
+.testimonial-text {
+  margin: 20px 0 25px !important;
+  line-height: 1.6 !important;
+}
+
+.testimonial-person {
+  gap: 4px !important;
+}
+/* =========================
+   TESTIMONIAL PAPER CARDS
+========================= */
+
+.testimonials-grid {
+  align-items: stretch;
+}
+
+.testimonial-card {
+  position: relative;
+  min-height: 390px;
+  height: auto;
+  padding: 45px 40px 35px;
+
+  background: #f8f6ee;
+
+  border: none;
+  border-radius: 2px;
+
+  text-align: center;
+
+  box-shadow:
+    0 8px 25px rgba(23, 53, 45, 0.08),
+    0 2px 6px rgba(23, 53, 45, 0.05);
+
+  overflow: hidden;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  clip-path: polygon(
+    2% 0%,
+    98% 1%,
+    99% 8%,
+    98% 18%,
+    100% 30%,
+    98% 42%,
+    100% 55%,
+    98% 68%,
+    100% 82%,
+    97% 94%,
+    99% 100%,
+    3% 99%,
+    2% 92%,
+    0% 82%,
+    2% 70%,
+    0% 57%,
+    2% 45%,
+    0% 32%,
+    2% 20%,
+    0% 8%
+  );
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 15px 35px rgba(23, 53, 45, 0.12),
+    0 4px 10px rgba(23, 53, 45, 0.06);
+}
+
+
+/* QUOTE */
+
+.testimonial-quote {
+  margin: 0 0 25px;
+
+  color: #087d66;
+
+  font-size: 52px;
+  line-height: 0.8;
+
+  font-family: Georgia, serif;
+}
+
+
+/* STARS */
+
+.testimonial-stars {
+  margin-bottom: 28px;
+  color: #b18a45;
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
+
+/* TESTIMONIAL TEXT */
+
+.testimonial-text {
+  max-width: 330px;
+  margin: 0 auto 35px;
+
+  color: #526861;
+
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+
+/* PERSON */
+
+.testimonial-person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+
+  margin-top: auto;
+}
+
+.testimonial-person strong {
+  color: #17352d;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.testimonial-person span {
+  color: #71817b;
+  font-size: 14px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    min-height: 360px;
+    padding: 40px 25px 30px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+  }
+
+  .testimonial-quote {
+    font-size: 48px;
+  }
+}
+/* TESTIMONIAL PAPER CARDS */
+
+.testimonial-card {
+  min-height: 360px !important;
+  padding: 35px 25px 28px !important;
+
+  /* green paper */
+  background: #eef8f3 !important;
+
+  border: none !important;
+  border-radius: 2px !important;
+
+  clip-path: polygon(
+    2% 0%,
+    98% 1%,
+    100% 12%,
+    98% 25%,
+    100% 38%,
+    98% 52%,
+    100% 66%,
+    98% 80%,
+    100% 100%,
+    2% 99%,
+    0% 86%,
+    2% 72%,
+    0% 58%,
+    2% 44%,
+    0% 30%,
+    2% 15%
+  );
+
+  box-shadow: 0 8px 22px rgba(23, 53, 45, 0.08);
+}
+
+
+/* reduce width */
+
+.testimonials-grid {
+  max-width: 1120px !important;
+  gap: 18px !important;
+}
+
+
+/* quote */
+
+.testimonial-quote {
+  margin: 0 0 20px !important;
+  color: #087d66 !important;
+  font-size: 48px !important;
+}
+
+
+/* stars */
+
+.testimonial-stars {
+  margin-bottom: 22px !important;
+  color: #b18a45 !important;
+  font-size: 20px !important;
+  letter-spacing: 4px;
+}
+
+
+/* text */
+
+.testimonial-text {
+  max-width: 300px;
+  margin: 0 auto 28px !important;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+}
+
+
+/* person */
+
+.testimonial-person {
+  gap: 3px !important;
+}
+
+.testimonial-person strong {
+  font-size: 16px !important;
+}
+
+.testimonial-person span {
+  font-size: 14px !important;
+}
+/* =========================
+   SMALL TESTIMONIAL PAPER CARDS
+========================= */
+
+.testimonials-grid {
+  max-width: 1050px !important;
+  gap: 16px !important;
+}
+
+.testimonial-card {
+  min-height: 285px !important;
+  height: 285px !important;
+  padding: 25px 22px 20px !important;
+
+  background: #eef8f3 !important;
+
+  clip-path: polygon(
+    3% 0%,
+    97% 1%,
+    100% 15%,
+    98% 30%,
+    100% 45%,
+    98% 60%,
+    100% 75%,
+    97% 100%,
+    3% 99%,
+    0% 84%,
+    2% 68%,
+    0% 52%,
+    2% 36%,
+    0% 20%
+  );
+
+  box-shadow: 0 5px 16px rgba(23, 53, 45, 0.07);
+}
+
+
+/* Quote */
+
+.testimonial-quote {
+  margin: 0 0 12px !important;
+  font-family: Georgia, serif !important;
+  font-size: 42px !important;
+  line-height: 0.8 !important;
+}
+
+
+/* Stars */
+
+.testimonial-stars {
+  margin-bottom: 16px !important;
+  font-size: 17px !important;
+  letter-spacing: 3px !important;
+}
+
+
+/* Different font for testimonial */
+
+.testimonial-text {
+  max-width: 270px !important;
+  margin: 0 auto 18px !important;
+
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+
+  color: #526861 !important;
+}
+
+
+/* Name */
+
+.testimonial-person strong {
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 15px !important;
+}
+
+
+/* Profession */
+
+.testimonial-person span {
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 13px !important;
+}
+/* =========================
+   MOBILE TESTIMONIAL SLIDER
+========================= */
+
+@media (max-width: 800px) {
+  .testimonials-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    max-width: 340px !important;
+    margin: 0 auto !important;
+  }
+
+  .testimonial-card {
+    width: 100% !important;
+    min-height: 285px !important;
+    height: 285px !important;
+    padding: 25px 20px 20px !important;
+  }
+
+  .testimonial-controls {
+    margin-top: 25px !important;
+    gap: 18px !important;
+  }
+
+  .testimonial-control-button {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 18px !important;
+    border-color: #b8d8ce !important;
+    color: #087d66 !important;
+  }
+
+  .testimonial-control-button:hover {
+    background-color: #087d66 !important;
+    border-color: #087d66 !important;
+    color: #ffffff !important;
+  }
+
+  .testimonial-dots {
+    gap: 7px !important;
+  }
+
+  .testimonial-dots span {
+    cursor: pointer;
+    width: 7px !important;
+    height: 7px !important;
+    background-color: #c9ddd7 !important;
+  }
+
+  .testimonial-dots span.active {
+    width: 22px !important;
+    background-color: #087d66 !important;
+  }
+}
+.testimonial-text {
+  max-width: 285px !important;
+  margin: 0 auto 10px !important;
+  text-align: center !important;
+
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 1.65 !important;
+  letter-spacing: 0.1px !important;
+
+  color: #526861 !important;
+}
+
+.testimonial-person {
+  margin-top: 5px !important;
+  padding-top: 5px !important;
+  text-align: center !important;
+}
+
+.testimonial-person strong {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #17352d !important;
+}
+
+.testimonial-person span {
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  color: #6b7d76 !important;
+}
+/* ===== TESTIMONIAL TEXT & ALIGNMENT ===== */
+
+.testimonial-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.testimonial-quote {
+  margin-bottom: 10px !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 42px !important;
+  line-height: 1 !important;
+}
+
+.testimonial-rating {
+  margin-bottom: 16px !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 18px !important;
+  letter-spacing: 4px !important;
+}
+
+/* Review */
+.testimonial-text {
+  width: 100% !important;
+  max-width: 285px !important;
+  min-height: 105px !important;
+  margin: 0 auto !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  text-align: center !important;
+
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 14.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 0.1px !important;
+
+  color: #526861 !important;
+}
+
+/* Name + qualification */
+.testimonial-person {
+  width: 100% !important;
+  min-height: 48px !important;
+
+  margin-top: 8px !important;
+  padding-top: 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  text-align: center !important;
+}
+
+.testimonial-person strong {
+  margin: 0 !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+
+  color: #17352d !important;
+}
+
+.testimonial-person span {
+  margin-top: 3px !important;
+
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 12.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
+
+  color: #6b7d76 !important;
+}
+/* Review */
+.testimonial-text {
+  width: 100% !important;
+  max-width: 285px !important;
+  min-height: 105px !important;
+  margin: 0 auto !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  text-align: center !important;
+
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 14.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 0.1px !important;
+
+  color: #526861 !important;
+}
+
+/* Name + qualification */
+.testimonial-person {
+  width: 100% !important;
+  min-height: 48px !important;
+
+  margin-top: 8px !important;
+  padding-top: 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  text-align: center !important;
+}
+
+.testimonial-person strong {
+  margin: 0 !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+
+  color: #17352d !important;
+}
+
+.testimonial-person span {
+  margin-top: 3px !important;
+
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 12.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
+
+  color: #6b7d76 !important;
+}
+/* ===== TESTIMONIAL TEXT & ALIGNMENT ===== */
+
+.testimonial-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.testimonial-quote {
+  margin-bottom: 10px !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 42px !important;
+  line-height: 1 !important;
+}
+
+.testimonial-rating {
+  margin-bottom: 16px !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 18px !important;
+  letter-spacing: 4px !important;
+}
+
+/* Review */
+.testimonial-text {
+  width: 100% !important;
+  max-width: 285px !important;
+  min-height: 105px !important;
+  margin: 0 auto !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  text-align: center !important;
+
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 14.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 0.1px !important;
+
+  color: #526861 !important;
+}
+
+/* Name + qualification */
+.testimonial-person {
+  width: 100% !important;
+  min-height: 48px !important;
+
+  margin-top: 8px !important;
+  padding-top: 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  text-align: center !important;
+}
+
+.testimonial-person strong {
+  margin: 0 !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+
+  color: #17352d !important;
+}
+
+.testimonial-person span {
+  margin-top: 3px !important;
+
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 12.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
+
+  color: #6b7d76 !important;
+}
+/* ===== FINAL TESTIMONIAL ALIGNMENT ===== */
+
+.testimonials-section .testimonial-card {
+  align-items: flex-start !important;
+  text-align: left !important;
+}
+
+/* Review */
+.testimonials-section .testimonial-text {
+  width: 100% !important;
+  max-width: 285px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  align-self: flex-start !important;
+
+  text-align: left !important;
+
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 14.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 0.1px !important;
+
+  color: #526861 !important;
+}
+
+/* Name + qualification */
+.testimonials-section .testimonial-person {
+  width: 100% !important;
+
+  margin-top: 8px !important;
+  padding: 0 !important;
+
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  align-self: flex-start !important;
+
+  text-align: left !important;
+}
+
+.testimonials-section .testimonial-person strong {
+  margin: 0 !important;
+
+  text-align: left !important;
+
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+
+  color: #17352d !important;
+}
+
+.testimonials-section .testimonial-person span {
+  margin-top: 3px !important;
+
+  text-align: left !important;
+
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 12.5px !important;
+  line-height: 1.3 !important;
+
+  color: #6b7d76 !important;
+}
+/* Center quote and stars only */
+.testimonials-section .testimonial-quote {
+  align-self: center !important;
+  text-align: center !important;
+}
+
+.testimonials-section .testimonial-rating {
+  align-self: center !important;
+  text-align: center !important;
+}
+/* ===== TESTIMONIAL FONT UPDATE ===== */
+
+.testimonials-section .testimonial-text {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.7 !important;
+  letter-spacing: 0.1px !important;
+}
+
+.testimonials-section .testimonial-person strong {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+.testimonials-section .testimonial-person span {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 12.5px !important;
+  font-weight: 400 !important;
+}
+/* ===== CENTER ALL TESTIMONIAL CONTENT ===== */
+
+.testimonials-section .testimonial-card {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+/* Quote */
+.testimonials-section .testimonial-quote {
+  align-self: center !important;
+  text-align: center !important;
+}
+
+/* Stars */
+.testimonials-section .testimonial-rating {
+  align-self: center !important;
+  text-align: center !important;
+}
+
+/* Review text */
+.testimonials-section .testimonial-text {
+  width: 100% !important;
+  max-width: 290px !important;
+  margin: 0 auto !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  text-align: center !important;
+
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.7 !important;
+
+  color: #526861 !important;
+}
+
+/* Name + qualification */
+.testimonials-section .testimonial-person {
+  width: 100% !important;
+  margin-top: 8px !important;
+  padding: 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  text-align: center !important;
+}
+
+.testimonials-section .testimonial-person strong {
+  text-align: center !important;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: #17352d !important;
+}
+
+.testimonials-section .testimonial-person span {
+  text-align: center !important;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 12.5px !important;
+  font-weight: 400 !important;
+  color: #6b7d76 !important;
+}
+/* ===== REDUCE SPACE BETWEEN STARS AND REVIEW ===== */
+
+.testimonials-section .testimonial-rating {
+  margin-bottom: 5px !important;
+}
+
+.testimonials-section .testimonial-text {
+  min-height: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+
+  display: block !important;
+  text-align: center !important;
+}
+/* ===== GETTING STARTED - COMPACT GREEN ===== */
+
+.get-started-section {
+  background: #eef8f3 !important;
+  padding: 55px 20px !important;
+}
+
+/* Heading spacing */
+.get-started-header {
+  margin-bottom: 35px !important;
+}
+
+/* Cards */
+.get-started-grid {
+  gap: 24px !important;
+}
+
+.get-started-card {
+  min-height: 230px !important;
+  height: 230px !important;
+  padding: 40px 35px !important;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 800px) {
+  .get-started-section {
+    padding: 35px 15px !important;
+  }
+
+  .get-started-header {
+    margin-bottom: 25px !important;
+  }
+
+  .get-started-grid {
+    gap: 16px !important;
+  }
+
+  .get-started-card {
+    min-height: 175px !important;
+    height: 175px !important;
+    padding: 25px 25px !important;
+  }
+}
+/* ===== GETTING STARTED - FINAL ===== */
+
+.getting-started {
+  padding: 60px 40px !important;
+  background-color: #eef8f3 !important;
+}
+
+.getting-started-header {
+  margin-bottom: 35px !important;
+}
+
+.steps-container {
+  gap: 24px !important;
+}
+
+/* Cards */
+.step {
+  min-height: 190px !important;
+  padding: 30px 35px !important;
+  background-color: #eef8f3 !important;
+  border: 1px solid #d4e5de !important;
+}
+
+/* Remove unnecessary space inside cards */
+.step-content {
+  margin-top: 0 !important;
+}
+
+.step-content h3 {
+  margin-bottom: 10px !important;
+}
+
+.step-content p {
+  line-height: 1.5 !important;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 800px) {
+  .getting-started {
+    padding: 35px 15px !important;
+  }
+
+  .getting-started-header {
+    margin-bottom: 22px !important;
+  }
+
+  .steps-container {
+    gap: 16px !important;
+  }
+
+  .step {
+    min-height: 150px !important;
+    padding: 22px 25px !important;
+  }
+
+  .step-content h3 {
+    margin-bottom: 8px !important;
+    font-size: 19px !important;
+  }
+
+  .step-content p {
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+  }
+
+  .step-arrow {
+    right: 20px !important;
+    bottom: 18px !important;
+    width: 36px !important;
+    height: 36px !important;
+  }
+}
+/* ===== GETTING STARTED - REFERENCE STYLE ===== */
+
+.getting-started {
+  padding: 55px 30px !important;
+  background-color: #eef8f3 !important;
+}
+
+.getting-started-header {
+  margin-bottom: 35px !important;
+}
+
+.steps-container {
+  max-width: 900px !important;
+  gap: 22px !important;
+}
+
+/* Compact cards */
+.step {
+  min-height: 255px !important;
+  height: 255px !important;
+  padding: 28px 25px !important;
+
+  background: #ffffff !important;
+  border: none !important;
+  border-radius: 5px !important;
+
+  box-shadow: 0 12px 25px rgba(23, 53, 45, 0.18) !important;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.step:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 16px 30px rgba(23, 53, 45, 0.22) !important;
+}
+
+/* Content */
+.step-content {
+  margin-top: 0 !important;
+}
+
+.step-content h3 {
+  margin: 45px 0 10px !important;
+  font-size: 20px !important;
+  line-height: 1.2 !important;
+}
+
+.step-content p {
+  margin: 0 !important;
+  max-width: 260px !important;
+
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+
+/* Arrow */
+.step-arrow {
+  right: 20px !important;
+  bottom: 18px !important;
+
+  width: 32px !important;
+  height: 32px !important;
+
+  border: none !important;
+  border-radius: 50% !important;
+
+  background-color: #17352d !important;
+  color: #ffffff !important;
+
+  font-size: 15px !important;
+
+  box-shadow: 0 4px 10px rgba(23, 53, 45, 0.2) !important;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 800px) {
+  .getting-started {
+    padding: 35px 15px !important;
+  }
+
+  .getting-started-header {
+    margin-bottom: 25px !important;
+  }
+
+  .steps-container {
+    gap: 18px !important;
+  }
+
+  .step {
+    min-height: 205px !important;
+    height: 205px !important;
+    padding: 22px 20px !important;
+  }
+
+  .step-content h3 {
+    margin-top: 38px !important;
+    font-size: 18px !important;
+  }
+
+  .step-content p {
+    font-size: 13px !important;
+    line-height: 1.45 !important;
+  }
+
+  .step-arrow {
+    right: 15px !important;
+    bottom: 15px !important;
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+/* ===== GETTING STARTED - MATCH REFERENCE ===== */
+
+.getting-started {
+  padding: 55px 20px !important;
+  background-color: #eef8f3 !important;
+}
+
+.getting-started-header {
+  margin-bottom: 35px !important;
+}
+
+/* Make the two boxes narrower */
+.steps-container {
+  max-width: 760px !important;
+  gap: 20px !important;
+}
+
+/* Compact card */
+.step {
+  min-height: 230px !important;
+  height: 230px !important;
+
+  padding: 28px 24px !important;
+
+  background-color: #ffffff !important;
+  border: none !important;
+  border-radius: 5px !important;
+
+  box-shadow: 0 10px 25px rgba(23, 53, 45, 0.15) !important;
+}
+
+/* Heading */
+.step-content h3 {
+  margin: 0 0 9px !important;
+
+  font-family: "Poppins", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+}
+
+/* Description */
+.step-content p {
+  max-width: 250px !important;
+  margin: 0 !important;
+
+  font-family: "Poppins", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: 1.55 !important;
+
+  color: #526861 !important;
+}
+
+/* Arrow */
+.step-arrow {
+  right: 18px !important;
+  bottom: 16px !important;
+
+  width: 34px !important;
+  height: 34px !important;
+
+  border: none !important;
+  border-radius: 50% !important;
+
+  background-color: #17352d !important;
+  color: #ffffff !important;
+
+  font-size: 15px !important;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 800px) {
+  .getting-started {
+    padding: 35px 15px !important;
+  }
+
+  .getting-started-header {
+    margin-bottom: 25px !important;
+  }
+
+  .steps-container {
+    max-width: 390px !important;
+    gap: 16px !important;
+  }
+
+  .step {
+    min-height: 190px !important;
+    height: 190px !important;
+    padding: 22px 20px !important;
+  }
+
+  .step-content h3 {
+    font-size: 17px !important;
+    line-height: 1.3 !important;
+  }
+
+  .step-content p {
+    max-width: 220px !important;
+    font-size: 12.5px !important;
+    line-height: 1.5 !important;
+  }
+
+  .step-arrow {
+    right: 15px !important;
+    bottom: 14px !important;
+    width: 32px !important;
+    height: 32px !important;
+  }
+}
+/* ===== GETTING STARTED - FINAL COMPACT STYLE ===== */
+
+.getting-started {
+  padding: 55px 20px !important;
+  background-color: #eef8f3 !important;
+}
+
+.getting-started-header {
+  margin-bottom: 35px !important;
+}
+
+.steps-container {
+  max-width: 760px !important;
+  gap: 20px !important;
+}
+
+/* Compact cards */
+.step {
+  min-height: 195px !important;
+  height: 195px !important;
+  padding: 28px 24px !important;
+
+  background-color: #ffffff !important;
+  border: none !important;
+  border-radius: 5px !important;
+
+  box-shadow: 0 10px 25px rgba(23, 53, 45, 0.14) !important;
+}
+
+/* Content */
+.step-content {
+  margin-top: 0 !important;
+  width: 100% !important;
+}
+
+/* Card title */
+.step-content h3 {
+  margin: 0 0 10px !important;
+
+  font-family: "Poppins", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.2px !important;
+
+  color: #1c322a !important;
+}
+
+/* Card description */
+.step-content p {
+  width: 100% !important;
+  max-width: 310px !important;
+
+  margin: 0 !important;
+
+  font-family: "Poppins", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+
+  color: #556b62 !important;
+}
+
+/* Arrow */
+.step-arrow {
+  right: 18px !important;
+  bottom: 16px !important;
+
+  width: 38px !important;
+  height: 38px !important;
+
+  border: none !important;
+  border-radius: 50% !important;
+
+  background-color: #17352d !important;
+  color: #ffffff !important;
+
+  font-size: 15px !important;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 800px) {
+  .getting-started {
+    padding: 35px 15px !important;
+  }
+
+  .getting-started-header {
+    margin-bottom: 25px !important;
+  }
+
+  .steps-container {
+    max-width: 390px !important;
+    gap: 16px !important;
+  }
+
+  .step {
+    min-height: 180px !important;
+    height: 180px !important;
+    padding: 24px 22px !important;
+  }
+
+  .step-content h3 {
+    font-size: 20px !important;
+    line-height: 1.25 !important;
+  }
+
+  .step-content p {
+    max-width: 280px !important;
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+  }
+
+  .step-arrow {
+    right: 15px !important;
+    bottom: 14px !important;
+    width: 34px !important;
+    height: 34px !important;
+  }
+}
+.step {
+  min-height: 180px !important;
+  height: 180px !important;
+  padding: 24px 22px !important;
+}
+
+.step-content h3 {
+  font-size: 20px !important;
+}
+
+.step-content p {
+  font-size: 14px !important;
+  line-height: 1.55 !important;
+}
+/* ===== GETTING STARTED - FINAL CENTER ALIGNMENT ===== */
+
+.step {
+  text-align: center !important;
+}
+
+.step-content {
+  width: 100% !important;
+  margin-top: 0 !important;
+  text-align: center !important;
+}
+
+.step-content h3 {
+  width: 100% !important;
+  margin: 0 0 10px !important;
+
+  text-align: center !important;
+
+  font-family: "Poppins", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+
+  color: #1c322a !important;
+}
+
+.step-content p {
+  width: 100% !important;
+  max-width: 340px !important;
+  margin: 0 auto !important;
+
+  text-align: center !important;
+
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+
+  color: #556b62 !important;
+}
+
+/* Keep arrow at bottom-right */
+.step-arrow {
+  right: 18px !important;
+  bottom: 16px !important;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 800px) {
+  .step {
+    text-align: center !important;
+  }
+
+  .step-content {
+    text-align: center !important;
+  }
+
+  .step-content h3 {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+  }
+
+  .step-content p {
+    max-width: 280px !important;
+    font-size: 15px !important;
+    line-height: 1.55 !important;
+  }
+}
+/* ===== SERVICES - SMALLER MOBILE CARDS ===== */
+
+@media (max-width: 800px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+  }
+
+  .service-card {
+    min-height: 145px !important;
+    height: 145px !important;
+    padding: 16px 10px !important;
+    border-radius: 2px !important;
+  }
+
+  /* Service icon */
+  .service-icon {
+    width: 55px !important;
+    height: 55px !important;
+  }
+
+  .service-icon img {
+    width: 45px !important;
+    height: 45px !important;
+    object-fit: contain !important;
+  }
+
+  /* Service title */
+  .service-card h3 {
+    margin: 8px 0 0 !important;
+    font-size: 14px !important;
+    line-height: 1.15 !important;
+    text-align: center !important;
+  }
+
+  /* Green circle in top-right */
+  .service-card-circle {
+    width: 65px !important;
+    height: 65px !important;
+    top: -28px !important;
+    right: -28px !important;
+  }
+
+  /* Arrow */
+  .service-arrow {
+    width: 28px !important;
+    height: 28px !important;
+    right: 8px !important;
+    bottom: 8px !important;
+    font-size: 12px !important;
+  }
+}
+/* ===== SERVICES TITLE - MOBILE ===== */
+
+@media (max-width: 800px) {
+  .service-card h3 {
+    font-size: 12px !important;
+    line-height: 1.15 !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+
+    margin: 5px 0 0 !important;
+    padding: 0 4px !important;
+  }
+}
+/* ===== SERVICES TITLES - MOBILE FINAL ===== */
+
+@media (max-width: 800px) {
+  .service-card h3 {
+    margin-top: 10px !important;
+    padding: 0 2px !important;
+
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+    font-weight: 600 !important;
+
+    text-align: center !important;
+  }
+
+  /* Keep Adults and Couples on one line */
+  .service-card:nth-child(1) h3,
+  .service-card:nth-child(2) h3 {
+    white-space: nowrap !important;
+    font-size: 11px !important;
+  }
+
+  /* Give longer titles a little more room */
+  .service-card:nth-child(3) h3,
+  .service-card:nth-child(4) h3 {
+    font-size: 11.5px !important;
+    line-height: 1.15 !important;
+  }
+}
+/* ===== SERVICES - MOBILE FINAL ===== */
+
+@media (max-width: 800px) {
+
+  /* Same compact card size for all 6 services */
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+  }
+
+  .service-card {
+    width: 100% !important;
+    height: 145px !important;
+    min-height: 145px !important;
+
+    padding: 12px 8px !important;
+    box-sizing: border-box !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* Icon */
+  .service-icon {
+    width: 55px !important;
+    height: 55px !important;
+
+    margin-top: 0 !important;
+  }
+
+  .service-icon img {
+    width: 48px !important;
+    height: 48px !important;
+    object-fit: contain !important;
+  }
+
+  /* ALL 6 titles - SAME font size */
+  .service-card h3,
+  .service-card:nth-child(1) h3,
+  .service-card:nth-child(2) h3,
+  .service-card:nth-child(3) h3,
+  .service-card:nth-child(4) h3,
+  .service-card:nth-child(5) h3,
+  .service-card:nth-child(6) h3 {
+    margin: 6px 0 0 !important;
+    padding: 0 2px !important;
+
+    font-family: "Poppins", sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 1.15 !important;
+
+    text-align: center !important;
+  }
+
+  /* Keep Adults and Couples in one line */
+  .service-card:nth-child(1) h3,
+  .service-card:nth-child(2) h3 {
+    white-space: nowrap !important;
+  }
+
+  /* Arrow */
+  .service-arrow {
+    width: 28px !important;
+    height: 28px !important;
+
+    right: 7px !important;
+    bottom: 7px !important;
+
+    font-size: 11px !important;
+  }
+}
+/* ===== SERVICES - SMALLER DESKTOP CARDS ===== */
+
+@media (min-width: 801px) {
+  .services-grid {
+    max-width: 950px !important;
+    margin: 0 auto !important;
+    gap: 18px !important;
+  }
+
+  .service-card {
+    min-height: 220px !important;
+    height: 220px !important;
+    padding: 25px 20px !important;
+  }
+
+  .service-icon {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .service-icon img {
+    width: 85px !important;
+    height: 85px !important;
+    object-fit: contain !important;
+  }
+
+  .service-card h3 {
+    margin-top: 8px !important;
+
+    font-family: "Poppins", sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 1.3 !important;
+
+    text-align: center !important;
+  }
+
+  .service-card-circle {
+    width: 95px !important;
+    height: 95px !important;
+    top: -42px !important;
+    right: -42px !important;
+  }
+
+  .service-arrow {
+    width: 38px !important;
+    height: 38px !important;
+    right: 16px !important;
+    bottom: 15px !important;
+    font-size: 15px !important;
+  }
+}
+/* ===== REMOVE SERVICE ARROWS ===== */
+
+.service-card .service-arrow {
+  display: none !important;
+} 
+/* ===== CLICKABLE MAP ===== */
+
+.contact-map-link {
+  display: block !important;
+  width: 100% !important;
+  text-decoration: none !important;
+}
+
+.contact-map {
+  width: 100% !important;
+  height: 350px !important;
+  display: block !important;
+  border: 0 !important;
+  pointer-events: none !important;
+}
+
+@media (max-width: 800px) {
+  .contact-map {
+    height: 280px !important;
+  }
+}
