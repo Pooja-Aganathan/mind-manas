@@ -12,18 +12,17 @@ import strategyNxtgenLogo from "../assets/organizations/Strategy Nxtgen.png";
 
 function TrustedOrganizations() {
   const organizations = [
-  { name: "Bridgestone", logo: bridgestoneLogo },
-  { name: "LIC India", logo: licLogo },
-  { name: "IVY Mobility Solutions", logo: ivyLogo },
-  { name: "AVNL India", logo: avnlLogo },
-  { name: "Chennai Public School", logo: chennaiPublicSchoolLogo },
-  { name: "Dena Bank", logo: denaBankLogo },
-  { name: "United India Insurance", logo: unitedIndiaInsuranceLogo },
-  { name: "Ace Hunters", logo: aceHuntersLogo },
-  { name: "V Create IT", logo: vCreateITLogo },
-  { name: "Strategy Nxtgen", logo: strategyNxtgenLogo },
-];
-  
+    { name: "Bridgestone", logo: bridgestoneLogo },
+    { name: "LIC India", logo: licLogo },
+    { name: "IVY Mobility Solutions", logo: ivyLogo },
+    { name: "AVNL India", logo: avnlLogo },
+    { name: "Chennai Public School", logo: chennaiPublicSchoolLogo },
+    { name: "Dena Bank", logo: denaBankLogo },
+    { name: "United India Insurance", logo: unitedIndiaInsuranceLogo },
+    { name: "Ace Hunters", logo: aceHuntersLogo },
+    { name: "V Create IT", logo: vCreateITLogo },
+    { name: "Strategy Nxtgen", logo: strategyNxtgenLogo },
+  ];
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [startIndex, setStartIndex] = useState(0);
@@ -39,30 +38,33 @@ function TrustedOrganizations() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  // Desktop: 5 cards, move by 3
+  // Mobile: 2 cards, move by 2
   const step = isMobile ? 2 : 3;
   const visibleCount = isMobile ? 2 : 5;
 
+  // Desktop:
+  // 1,2,3,4,5
+  // 4,5,6,7,8
+  // 7,8,9,10,1
+  // 10,1,2,3,4
   const totalSlides = isMobile ? 5 : 4;
 
   useEffect(() => {
     const interval = setInterval(() => {
       setStartIndex((current) => {
         const next = current + step;
-
-        if (isMobile) {
-          return next >= 10 ? 0 : next;
-        }
-
         return next >= 10 ? 0 : next;
       });
-    }, isMobile ? 3000 : 5000);
+    }, isMobile ? 3000 : 4000);
 
     return () => clearInterval(interval);
   }, [isMobile, step]);
 
   const visibleOrganizations = Array.from(
     { length: visibleCount },
-    (_, index) => organizations[(startIndex + index) % organizations.length]
+    (_, index) =>
+      organizations[(startIndex + index) % organizations.length]
   );
 
   const currentDot = isMobile
@@ -95,6 +97,7 @@ function TrustedOrganizations() {
   return (
     <section className="trusted-section">
       <div className="trusted-container">
+
         <div className="trusted-header">
           <p className="section-label">TRUSTED BY</p>
 
@@ -111,19 +114,29 @@ function TrustedOrganizations() {
         </div>
 
         <div className="trusted-slider">
+
           <div className="trusted-grid">
             {visibleOrganizations.map((organization, index) => (
-  <div className="trusted-item" key={`${organization.name}-${index}`}>
-    <div className="trusted-logo">
-      <img src={organization.logo} alt={organization.name} />
-    </div>
+              <div
+                className="trusted-item"
+                key={`${organization.name}-${index}`}
+              >
+                <div className="trusted-logo">
+                  <img
+                    src={organization.logo}
+                    alt={organization.name}
+                  />
+                </div>
 
-    <p className="trusted-name">{organization.name}</p>
-  </div>
-))}
+                <p className="trusted-name">
+                  {organization.name}
+                </p>
+              </div>
+            ))}
           </div>
 
           <div className="trusted-controls">
+
             <button
               type="button"
               className="trusted-arrow"
@@ -155,8 +168,11 @@ function TrustedOrganizations() {
             >
               →
             </button>
+
           </div>
+
         </div>
+
       </div>
     </section>
   );

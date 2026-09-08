@@ -40,7 +40,7 @@
 
   color: #08785f;
 
-  font-family: Arial, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 13px;
   font-weight: 700;
@@ -55,7 +55,7 @@
 
   color: #17231f;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: clamp(52px, 5vw, 72px);
 
@@ -75,7 +75,7 @@
 
   color: #4f665d;
 
-  font-family: Arial, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 17px;
 
@@ -121,7 +121,7 @@
 
   text-decoration: none;
 
-  font-family: Arial, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 15px;
   font-weight: 600;
@@ -153,7 +153,7 @@
 
   text-decoration: none;
 
-  font-family: Arial, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 15px;
 
@@ -220,7 +220,7 @@
 
   color: #173f35;
 
-  font-family: Arial, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 12px;
 
@@ -428,7 +428,7 @@
 .logo-name {
   color: #0b6b57;
 
-  font-family: Arial, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 25px;
   font-weight: 400;
@@ -443,7 +443,7 @@
 
   color: #8a9b94;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 9px;
 
@@ -471,7 +471,7 @@
 
   text-decoration: none;
 
-  font-family: Arial, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 15px;
   font-weight: 500;
@@ -606,7 +606,7 @@
 
     text-decoration: none;
 
-    font-family: Arial, sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
 
     font-size: 20px;
 
@@ -695,7 +695,7 @@
 }
 .services-header h2 {
   color: #17352d;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 48px;
   font-weight: 400;
   line-height: 1.15;
@@ -955,7 +955,7 @@
 .online-therapy-content > p:first-child {
   margin: 0 0 18px;
   color: #087d66;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 3px;
@@ -965,7 +965,7 @@
 .online-therapy-content h2 {
   margin: 0;
   color: #17352d;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 48px;
   font-weight: 400;
   line-height: 1.15;
@@ -981,7 +981,7 @@
 
 .online-therapy-content > p {
   color: #526861;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .online-therapy-content h2 + p {
@@ -1029,7 +1029,7 @@
 .online-therapy-feature-content h3 {
   margin: 0 0 5px;
   color: #17352d;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
@@ -1037,7 +1037,7 @@
 .online-therapy-feature-content p {
   margin: 0;
   color: #526861;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 12px;
   line-height: 1.5;
 }
@@ -1054,7 +1054,7 @@
   border-radius: 30px;
   background-color: #087d66;
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 15px;
   font-weight: 600;
   text-align: center;
@@ -1089,14 +1089,14 @@
 
 .online-therapy-stat strong {
   color: #087d66;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
 
 .online-therapy-stat span {
   color: #526861;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 12px;
 }
 
@@ -1401,7 +1401,7 @@
 .about-label {
   margin: 0 0 15px;
   color: #087d66;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 3px;
@@ -1413,7 +1413,7 @@
 
   color: #17352d;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 48px;
   font-weight: 400;
@@ -1430,7 +1430,7 @@
 
   color: #526861;
 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 16px;
   line-height: 1.8;
@@ -1998,7 +1998,7 @@
   color: #087D66;
   font-size: 50px;
   line-height: 0.7;
-  font-family: Georgia, serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .testimonial-text {
@@ -2074,7 +2074,7 @@
 
   color: #17352d;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: clamp(48px, 5vw, 68px);
   line-height: 1.02;
   font-weight: 600;
@@ -2242,7 +2242,7 @@
 
   color: #17352d;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 21px;
   line-height: 1.2;
   font-weight: 600;
@@ -2309,7 +2309,7 @@
 
   color: #17352d;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 41px;
   line-height: 1.1;
   font-weight: 600;
@@ -2394,7 +2394,7 @@
 
   color: #17352d;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 43px;
   line-height: 1.08;
   font-weight: 600;
@@ -2508,7 +2508,7 @@
   background-color: #ffffff;
   color: #292431;
 
-  font-family: inherit;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 13px;
 
   transition:
@@ -2633,7 +2633,7 @@
   background-color: #087D66;
   color: #ffffff;
 
-  font-family: inherit;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 13px;
   font-weight: 600;
 
@@ -2690,7 +2690,7 @@
   background-color: #087D66;
   color: #ffffff;
 
-  font-family: inherit;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 13px;
   font-weight: 600;
 
@@ -3327,7 +3327,7 @@
 
   color: #17352d !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 42px !important;
   line-height: 1.08 !important;
@@ -3498,7 +3498,7 @@
 .online-stat strong {
   color: #087d66 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 21px !important;
   line-height: 1.1 !important;
@@ -3620,7 +3620,7 @@
 .online-stat strong {
   color: #087d66 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 20px !important;
   line-height: 1.1 !important;
@@ -3817,7 +3817,7 @@
 .online-stat strong {
   color: #087d66 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 21px !important;
 
@@ -3870,7 +3870,7 @@
 
   color: #17352d !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 42px !important;
 
@@ -4189,7 +4189,7 @@
 .online-stat strong {
   color: #087d66 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 21px !important;
 }
@@ -4236,7 +4236,7 @@
 .online-therapy-content h2 {
   margin: 0 0 18px !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 42px !important;
   line-height: 1.08 !important;
@@ -4534,7 +4534,7 @@
 .online-stat strong {
   color: #087d66 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 21px !important;
 
@@ -4587,7 +4587,7 @@
 
   color: #17352d !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 42px !important;
 
@@ -4906,7 +4906,7 @@
 .online-stat strong {
   color: #087d66 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 21px !important;
 }
@@ -4953,7 +4953,7 @@
 .online-therapy-content h2 {
   margin: 0 0 18px !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 42px !important;
   line-height: 1.08 !important;
@@ -5258,7 +5258,7 @@
 .online-stat strong {
   color: #087d66 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 21px !important;
 
@@ -5313,7 +5313,7 @@
 
   color: #17352d !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 43px !important;
 
@@ -5678,7 +5678,7 @@
 .online-stat strong {
   color: #087d66 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 22px !important;
 
@@ -5747,7 +5747,7 @@
 
   color: #17352d !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 39px !important;
 
@@ -6137,7 +6137,7 @@
 .online-final-stat strong {
   color: #087d66;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 23px;
 
@@ -6194,7 +6194,7 @@
 
   color: #17352d;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 45px;
 
@@ -6584,7 +6584,7 @@
 .testimonials-header h2 {
   margin-top: 10px;
   color: #17352d;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 42px;
   line-height: 1.15;
   font-weight: 600;
@@ -6619,7 +6619,7 @@
 .testimonial-quote {
   margin-bottom: 12px;
   color: #087d66;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 42px;
   line-height: 1;
   font-weight: bold;
@@ -6780,7 +6780,7 @@
 .therapists-header h2 {
   margin: 10px 0 0;
   color: #17352d;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 44px;
   line-height: 1.12;
 }
@@ -6863,7 +6863,7 @@
   margin: 0 0 14px;
 
   color: #17352d;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 25px;
 }
 
@@ -6949,7 +6949,7 @@
   margin: 0 !important;
 
   color: #17352d !important;
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 
   font-size: 46px !important;
   line-height: 1.08 !important;
@@ -7233,7 +7233,7 @@
 .trusted-item {
   padding: 18px 10px;
   color: #526861;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 18px;
   border-bottom: 1px solid #dbe8e2;
   transition: color 0.3s ease;
@@ -7295,7 +7295,7 @@
 .trusted-header h2 {
   margin: 0 0 18px;
   color: #17151b;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 44px;
   font-weight: 500;
   line-height: 1.15;
@@ -7368,7 +7368,7 @@
   margin: 15px 0 0;
 
   color: #526861;
-  font-family: Arial, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.4;
@@ -7456,7 +7456,7 @@
 .therapy-methods-title h1 {
   margin: 0 !important;
   color: #17151b !important;
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 48px !important;
   font-weight: 500 !important;
   line-height: 1.1 !important;
@@ -7496,7 +7496,7 @@
 
   color: #087d66 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 18px !important;
   font-weight: 500 !important;
   line-height: 1.4 !important;
@@ -7615,7 +7615,7 @@
 
   color: #087d66;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 18px;
   font-weight: 500;
@@ -8318,7 +8318,7 @@ body,
 /* Main heading */
 .online-therapy-content h2 {
   color: #17352d !important;
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-weight: 400 !important;
 }
 
@@ -8419,7 +8419,7 @@ body,
 
 .online-therapy h2 {
   color: #17352d !important;
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 }
 
 .online-therapy h2 span {
@@ -8491,7 +8491,7 @@ body,
 /* MAIN HEADING */
 .online-therapy-content h2 {
   color: #17352d !important;
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 }
 
 /* GREEN PART OF HEADING */
@@ -10577,7 +10577,7 @@ body,
 }
 .contact-office-card p,
 .contact-office-card a {
-  font-family: Arial, Helvetica, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 14px !important;
   line-height: 1.6 !important;
 }
@@ -11009,7 +11009,7 @@ body,
   font-size: 52px;
   line-height: 0.8;
 
-  font-family: Georgia, serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 
@@ -11201,7 +11201,7 @@ body,
 
 .testimonial-quote {
   margin: 0 0 12px !important;
-  font-family: Georgia, serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 42px !important;
   line-height: 0.8 !important;
 }
@@ -11222,7 +11222,7 @@ body,
   max-width: 270px !important;
   margin: 0 auto 18px !important;
 
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 14px !important;
   line-height: 1.5 !important;
 
@@ -11233,7 +11233,7 @@ body,
 /* Name */
 
 .testimonial-person strong {
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 15px !important;
 }
 
@@ -11241,7 +11241,7 @@ body,
 /* Profession */
 
 .testimonial-person span {
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 13px !important;
 }
 /* =========================
@@ -11303,7 +11303,7 @@ body,
   margin: 0 auto 10px !important;
   text-align: center !important;
 
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 15px !important;
   font-weight: 400 !important;
   line-height: 1.65 !important;
@@ -11319,14 +11319,14 @@ body,
 }
 
 .testimonial-person strong {
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 16px !important;
   font-weight: 600 !important;
   color: #17352d !important;
 }
 
 .testimonial-person span {
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 13px !important;
   font-weight: 400 !important;
   color: #6b7d76 !important;
@@ -11342,14 +11342,14 @@ body,
 
 .testimonial-quote {
   margin-bottom: 10px !important;
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 42px !important;
   line-height: 1 !important;
 }
 
 .testimonial-rating {
   margin-bottom: 16px !important;
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 18px !important;
   letter-spacing: 4px !important;
 }
@@ -11367,7 +11367,7 @@ body,
 
   text-align: center !important;
 
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 14.5px !important;
   font-weight: 400 !important;
   line-height: 1.6 !important;
@@ -11395,7 +11395,7 @@ body,
 .testimonial-person strong {
   margin: 0 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 16px !important;
   font-weight: 600 !important;
   line-height: 1.3 !important;
@@ -11406,7 +11406,7 @@ body,
 .testimonial-person span {
   margin-top: 3px !important;
 
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 12.5px !important;
   font-weight: 400 !important;
   line-height: 1.3 !important;
@@ -11426,7 +11426,7 @@ body,
 
   text-align: center !important;
 
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 14.5px !important;
   font-weight: 400 !important;
   line-height: 1.6 !important;
@@ -11454,7 +11454,7 @@ body,
 .testimonial-person strong {
   margin: 0 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 16px !important;
   font-weight: 600 !important;
   line-height: 1.3 !important;
@@ -11465,7 +11465,7 @@ body,
 .testimonial-person span {
   margin-top: 3px !important;
 
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 12.5px !important;
   font-weight: 400 !important;
   line-height: 1.3 !important;
@@ -11483,14 +11483,14 @@ body,
 
 .testimonial-quote {
   margin-bottom: 10px !important;
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 42px !important;
   line-height: 1 !important;
 }
 
 .testimonial-rating {
   margin-bottom: 16px !important;
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 18px !important;
   letter-spacing: 4px !important;
 }
@@ -11508,7 +11508,7 @@ body,
 
   text-align: center !important;
 
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 14.5px !important;
   font-weight: 400 !important;
   line-height: 1.6 !important;
@@ -11536,7 +11536,7 @@ body,
 .testimonial-person strong {
   margin: 0 !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 16px !important;
   font-weight: 600 !important;
   line-height: 1.3 !important;
@@ -11547,7 +11547,7 @@ body,
 .testimonial-person span {
   margin-top: 3px !important;
 
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 12.5px !important;
   font-weight: 400 !important;
   line-height: 1.3 !important;
@@ -11573,7 +11573,7 @@ body,
 
   text-align: left !important;
 
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 14.5px !important;
   font-weight: 400 !important;
   line-height: 1.6 !important;
@@ -11601,7 +11601,7 @@ body,
 
   text-align: left !important;
 
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 16px !important;
   font-weight: 600 !important;
   line-height: 1.3 !important;
@@ -11614,7 +11614,7 @@ body,
 
   text-align: left !important;
 
-  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 12.5px !important;
   line-height: 1.3 !important;
 
@@ -11633,7 +11633,7 @@ body,
 /* ===== TESTIMONIAL FONT UPDATE ===== */
 
 .testimonials-section .testimonial-text {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 14px !important;
   font-weight: 400 !important;
   line-height: 1.7 !important;
@@ -11641,13 +11641,13 @@ body,
 }
 
 .testimonials-section .testimonial-person strong {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 15px !important;
   font-weight: 600 !important;
 }
 
 .testimonials-section .testimonial-person span {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 12.5px !important;
   font-weight: 400 !important;
 }
@@ -11682,7 +11682,7 @@ body,
 
   text-align: center !important;
 
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 14px !important;
   font-weight: 400 !important;
   line-height: 1.7 !important;
@@ -11706,7 +11706,7 @@ body,
 
 .testimonials-section .testimonial-person strong {
   text-align: center !important;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 15px !important;
   font-weight: 600 !important;
   color: #17352d !important;
@@ -11714,7 +11714,7 @@ body,
 
 .testimonials-section .testimonial-person span {
   text-align: center !important;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 12.5px !important;
   font-weight: 400 !important;
   color: #6b7d76 !important;
@@ -11997,7 +11997,7 @@ body,
 .step-content h3 {
   margin: 0 0 9px !important;
 
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 18px !important;
   font-weight: 600 !important;
   line-height: 1.3 !important;
@@ -12008,7 +12008,7 @@ body,
   max-width: 250px !important;
   margin: 0 !important;
 
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 13px !important;
   font-weight: 400 !important;
   line-height: 1.55 !important;
@@ -12112,7 +12112,7 @@ body,
 .step-content h3 {
   margin: 0 0 10px !important;
 
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 22px !important;
   font-weight: 700 !important;
   line-height: 1.25 !important;
@@ -12128,7 +12128,7 @@ body,
 
   margin: 0 !important;
 
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 15px !important;
   font-weight: 400 !important;
   line-height: 1.6 !important;
@@ -12225,7 +12225,7 @@ body,
 
   text-align: center !important;
 
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 22px !important;
   font-weight: 700 !important;
   line-height: 1.3 !important;
@@ -12240,7 +12240,7 @@ body,
 
   text-align: center !important;
 
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 1.6 !important;
@@ -12417,7 +12417,7 @@ body,
     margin: 6px 0 0 !important;
     padding: 0 2px !important;
 
-    font-family: "Poppins", sans-serif !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
     font-size: 12px !important;
     font-weight: 600 !important;
     line-height: 1.15 !important;
@@ -12471,7 +12471,7 @@ body,
   .service-card h3 {
     margin-top: 8px !important;
 
-    font-family: "Poppins", sans-serif !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
     font-size: 18px !important;
     font-weight: 600 !important;
     line-height: 1.3 !important;
@@ -12519,4 +12519,459 @@ body,
   .contact-map {
     height: 280px !important;
   }
+}
+/* =========================================
+   PLUS JAKARTA SANS - WHOLE WEBSITE
+   ========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+html,
+body,
+#root {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+
+/* =========================================
+   TRUSTED ORGANIZATIONS - KEEP INSIDE CONTAINER
+   ========================================= */
+
+.trusted-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.trusted-container {
+  width: 94%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+.trusted-header {
+  width: 100%;
+  text-align: center;
+}
+
+.trusted-header h2 {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.trusted-intro {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.trusted-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.trusted-grid {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.trusted-item {
+  box-sizing: border-box;
+}
+
+.trusted-name {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+
+/* Buttons / controls */
+.trusted-arrow,
+.trusted-dot {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .trusted-container {
+    width: 92%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .trusted-grid {
+    width: 100%;
+  }
+}
+.trusted-container {
+  width: 94%;
+  max-width: 1240px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.trusted-slider {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.trusted-grid {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* =========================================
+   ORGANIZATION CARDS - INSIDE CONTAINER
+   ========================================= */
+
+.trusted-container {
+  width: 94%;
+  max-width: 1240px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.trusted-slider {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.trusted-grid {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.trusted-item {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+/* Keep logos inside each card */
+.trusted-logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.trusted-logo img {
+  max-width: 85%;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+/* Slider controls stay inside container */
+.trusted-controls {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 768px) {
+  .trusted-container {
+    width: 92%;
+    max-width: 100%;
+  }
+
+  .trusted-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .trusted-item {
+    width: 100%;
+  }
+}
+/* =========================================
+   TRUSTED ORGANIZATIONS
+   KEEP CARDS INSIDE A CENTERED CONTAINER
+   ========================================= */
+
+.trusted-slider {
+  width: 100%;
+  max-width: 1180px !important;
+  margin: 0 auto !important;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.trusted-grid {
+  width: 100% !important;
+  max-width: 1180px !important;
+  margin: 0 auto !important;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px !important;
+  box-sizing: border-box;
+}
+
+.trusted-item {
+  width: 100% !important;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+
+/* =========================================
+   ONLINE THERAPY - SMALL BUTTON
+   ========================================= */
+
+.online-final-button {
+  width: fit-content !important;
+  min-width: 0 !important;
+  padding: 14px 28px !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px !important;
+  white-space: nowrap;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 768px) {
+
+  .trusted-slider {
+    width: 92% !important;
+    max-width: 100% !important;
+  }
+
+  .trusted-grid {
+    width: 100% !important;
+    max-width: 100% !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px !important;
+  }
+
+  .online-final-button {
+    width: fit-content !important;
+    padding: 12px 22px !important;
+  }
+}
+/* FINAL ORGANIZATION CONTAINER FIX */
+
+.trusted-container {
+  width: 94% !important;
+  max-width: 1240px !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+}
+
+.trusted-slider {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.trusted-grid {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+  gap: 20px !important;
+  box-sizing: border-box !important;
+}
+
+.trusted-item {
+  width: 100% !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 768px) {
+  .trusted-container {
+    width: 92% !important;
+    max-width: 100% !important;
+  }
+
+  .trusted-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+  }
+}
+/* =========================================
+   FINAL FIX - TRUSTED ORGANIZATIONS
+   ========================================= */
+
+.trusted-container {
+  width: calc(100% - 80px) !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+}
+
+.trusted-slider {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.trusted-grid {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+  gap: 20px !important;
+  box-sizing: border-box !important;
+}
+
+.trusted-item {
+  width: 100% !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+}
+
+
+/* =========================================
+   ONLINE THERAPY BUTTON
+   ========================================= */
+
+.online-final-button {
+  width: auto !important;
+  max-width: fit-content !important;
+  display: inline-flex !important;
+  padding: 13px 28px !important;
+  border-radius: 30px !important;
+  white-space: nowrap !important;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 768px) {
+  .trusted-container {
+    width: calc(100% - 32px) !important;
+    max-width: 100% !important;
+  }
+
+  .trusted-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+  }
+
+  .online-final-button {
+    padding: 12px 22px !important;
+  }
+}
+/* =========================================
+   COMMON WEBSITE CONTAINER
+   ========================================= */
+
+.site-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .site-container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.service-card h3 {
+  white-space: nowrap !important;
+}
+
+.service-card {
+  cursor: default !important;
+}
+/* WHAT WE DO - REMOVE HOVER EFFECT */
+
+.service-card {
+  cursor: default !important;
+}
+
+.service-card:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.service-card:hover h3 {
+  color: #000000 !important;
+}
+
+.service-card:hover .service-icon img {
+  filter: none !important;
+}
+
+.service-card:hover .service-card-circle {
+  background: #e3f2ed !important;
+}
+/* WHAT WE DO - COMPLETELY DISABLE HOVER */
+
+.services-section .service-card,
+.services-section .service-card:hover,
+.services-section .service-card:focus,
+.services-section .service-card:active {
+  background: #ffffff !important;
+  color: #000000 !important;
+  transform: none !important;
+  box-shadow: none !important;
+  cursor: default !important;
+}
+
+.services-section .service-card h3,
+.services-section .service-card:hover h3,
+.services-section .service-card:focus h3,
+.services-section .service-card:active h3 {
+  color: #000000 !important;
+}
+
+.services-section .service-card-circle,
+.services-section .service-card:hover .service-card-circle,
+.services-section .service-card:focus .service-card-circle,
+.services-section .service-card:active .service-card-circle {
+  background: #e3f2ed !important;
+}
+
+.services-section .service-card .service-icon img,
+.services-section .service-card:hover .service-icon img,
+.services-section .service-card:focus .service-icon img,
+.services-section .service-card:active .service-icon img {
+  filter: none !important;
+}
+.trusted-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
 }
