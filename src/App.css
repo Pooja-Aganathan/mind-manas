@@ -13482,3 +13482,21 @@ body,
     transform: none !important;
   }
 }
+/* =========================================================
+   GLOBAL FONT - PLUS JAKARTA SANS
+   ========================================================= */
+
+*,
+*::before,
+*::after {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
