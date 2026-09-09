@@ -14,11 +14,7 @@ function Footer() {
       <div className="footer-top">
         <div className="footer-intro">
           <img src={logo} alt="Mind Manas" className="footer-logo-image" />
-
-          <p>
-            A safe space for your mind, emotions and personal growth.
-          </p>
-
+          
           <button onClick={scrollToTop} className="footer-top-button">
             Back to top ↑
           </button>
