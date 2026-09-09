@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import bridgestoneLogo from "../assets/organizations/Bridgestone.png";
 import licLogo from "../assets/organizations/LIC India.png";
 import ivyLogo from "../assets/organizations/IVY Mobility Solutions.png";
@@ -24,75 +23,8 @@ function TrustedOrganizations() {
     { name: "Strategy Nxtgen", logo: strategyNxtgenLogo },
   ];
 
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
-  const [startIndex, setStartIndex] = useState(0);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-      setStartIndex(0);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  // Desktop: 5 cards, move by 3
-  // Mobile: 2 cards, move by 2
-  const step = isMobile ? 2 : 3;
-  const visibleCount = isMobile ? 2 : 5;
-
-  // Desktop:
-  // 1,2,3,4,5
-  // 4,5,6,7,8
-  // 7,8,9,10,1
-  // 10,1,2,3,4
-  const totalSlides = isMobile ? 5 : 4;
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setStartIndex((current) => {
-        const next = current + step;
-        return next >= 10 ? 0 : next;
-      });
-    }, isMobile ? 3000 : 4000);
-
-    return () => clearInterval(interval);
-  }, [isMobile, step]);
-
-  const visibleOrganizations = Array.from(
-    { length: visibleCount },
-    (_, index) =>
-      organizations[(startIndex + index) % organizations.length]
-  );
-
-  const currentDot = isMobile
-    ? Math.floor(startIndex / 2)
-    : Math.floor(startIndex / 3);
-
-  const goToSlide = (index) => {
-    setStartIndex(isMobile ? index * 2 : index * 3);
-  };
-
-  const nextSlide = () => {
-    setStartIndex((current) => {
-      const next = current + step;
-      return next >= 10 ? 0 : next;
-    });
-  };
-
-  const previousSlide = () => {
-    setStartIndex((current) => {
-      const previous = current - step;
-
-      if (previous < 0) {
-        return isMobile ? 8 : 9;
-      }
-
-      return previous;
-    });
-  };
+  // Duplicate the list so the animation can loop seamlessly.
+  const sliderOrganizations = [...organizations, ...organizations];
 
   return (
     <section className="trusted-section">
@@ -115,60 +47,28 @@ function TrustedOrganizations() {
 
         <div className="trusted-slider">
 
-          <div className="trusted-grid">
-            {visibleOrganizations.map((organization, index) => (
-              <div
-                className="trusted-item"
-                key={`${organization.name}-${index}`}
-              >
-                <div className="trusted-logo">
-                  <img
-                    src={organization.logo}
-                    alt={organization.name}
-                  />
+          <div className="trusted-carousel">
+            <div className="trusted-carousel-track">
+
+              {sliderOrganizations.map((organization, index) => (
+                <div
+                  className="trusted-item"
+                  key={`${organization.name}-${index}`}
+                >
+                  <div className="trusted-logo">
+                    <img
+                      src={organization.logo}
+                      alt={organization.name}
+                    />
+                  </div>
+
+                  <p className="trusted-name">
+                    {organization.name}
+                  </p>
                 </div>
-
-                <p className="trusted-name">
-                  {organization.name}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <div className="trusted-controls">
-
-            <button
-              type="button"
-              className="trusted-arrow"
-              onClick={previousSlide}
-              aria-label="Previous organizations"
-            >
-              ←
-            </button>
-
-            <div className="trusted-dots">
-              {Array.from({ length: totalSlides }).map((_, index) => (
-                <button
-                  key={index}
-                  type="button"
-                  className={`trusted-dot ${
-                    currentDot === index ? "active" : ""
-                  }`}
-                  onClick={() => goToSlide(index)}
-                  aria-label={`Go to slide ${index + 1}`}
-                />
               ))}
+
             </div>
-
-            <button
-              type="button"
-              className="trusted-arrow"
-              onClick={nextSlide}
-              aria-label="Next organizations"
-            >
-              →
-            </button>
-
           </div>
 
         </div>

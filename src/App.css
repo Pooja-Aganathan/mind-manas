@@ -13500,3 +13500,109 @@ textarea,
 select {
   font-family: "Plus Jakarta Sans", sans-serif !important;
 }
+/* ONLINE THERAPY — full-width green background */
+.online-final {
+  position: relative;
+  background: transparent !important;
+  z-index: 1;
+}
+
+.online-final::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background: #eef8f3;
+  z-index: -1;
+}
+/* ONLINE THERAPY — FULL SCREEN GREEN BACKGROUND */
+
+.online-final {
+  width: 100vw !important;
+  max-width: none !important;
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: 0 !important;
+
+  background: #eef8f3 !important;
+
+  padding-left: max(24px, calc((100vw - 1200px) / 2)) !important;
+  padding-right: max(24px, calc((100vw - 1200px) / 2)) !important;
+
+  box-sizing: border-box !important;
+}
+/* =========================================================
+   TRUSTED ORGANIZATIONS - CONTINUOUS AUTO SLIDER
+   ========================================================= */
+
+.trusted-carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.trusted-carousel-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: trustedContinuousSlide 35s linear infinite;
+  will-change: transform;
+}
+
+.trusted-carousel-track .trusted-item {
+  flex: 0 0 calc((1200px - 80px) / 5);
+  width: calc((1200px - 80px) / 5);
+  box-sizing: border-box;
+}
+
+/* Seamless continuous movement */
+@keyframes trustedContinuousSlide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - 10px));
+  }
+}
+
+
+/* =========================
+   TABLET
+   ========================= */
+
+@media (min-width: 701px) and (max-width: 900px) {
+  .trusted-carousel-track {
+    gap: 16px;
+    animation-duration: 30s;
+  }
+
+  .trusted-carousel-track .trusted-item {
+    flex: 0 0 calc((100vw - 64px - 32px) / 3);
+    width: calc((100vw - 64px - 32px) / 3);
+  }
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 700px) {
+  .trusted-carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .trusted-carousel-track {
+    gap: 14px;
+    animation-duration: 25s;
+  }
+
+  .trusted-carousel-track .trusted-item {
+    flex: 0 0 calc((100vw - 40px - 14px) / 2);
+    width: calc((100vw - 40px - 14px) / 2);
+  }
+}
