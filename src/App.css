@@ -13094,3 +13094,184 @@ body,
     margin-left: 0 !important;
   }
 }
+/* =========================================
+   THERAPIST PROFILE MODAL
+   ========================================= */
+
+.therapist-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+
+  background: rgba(23, 53, 45, 0.55);
+
+  overflow-y: auto;
+}
+
+.therapist-modal {
+  position: relative;
+
+  width: 100%;
+  max-width: 850px;
+  max-height: 90vh;
+
+  padding: 40px;
+
+  background: #ffffff;
+  border-radius: 24px;
+
+  box-sizing: border-box;
+
+  overflow-y: auto;
+
+  box-shadow: 0 20px 60px rgba(23, 53, 45, 0.18);
+}
+
+.therapist-modal-close {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+
+  width: 40px;
+  height: 40px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #eef8f3;
+  color: #087d66;
+
+  font-size: 28px;
+  line-height: 1;
+
+  cursor: pointer;
+}
+
+.therapist-modal-close:hover {
+  background: #eef8f3;
+  color: #087d66;
+}
+
+.therapist-modal-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  padding-right: 45px;
+
+  margin-bottom: 30px;
+}
+
+.therapist-modal-photo {
+  width: 110px;
+  height: 110px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  flex-shrink: 0;
+}
+
+.therapist-modal-role {
+  margin: 0 0 8px;
+
+  color: #087d66;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.therapist-modal-header h2 {
+  margin: 0;
+
+  color: #17352d;
+
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.therapist-modal-content {
+  color: #526861;
+
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.therapist-modal-content p {
+  margin: 0 0 18px;
+}
+
+.therapist-modal-close-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 10px;
+
+  padding: 12px 24px;
+
+  border: 1px solid #087d66;
+  border-radius: 30px;
+
+  background: #087d66;
+  color: #ffffff;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.therapist-modal-close-button:hover {
+  background: #087d66;
+  color: #ffffff;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .therapist-modal-overlay {
+    padding: 15px;
+  }
+
+  .therapist-modal {
+    max-height: 92vh;
+    padding: 30px 22px;
+    border-radius: 20px;
+  }
+
+  .therapist-modal-header {
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 15px;
+
+    padding-right: 35px;
+  }
+
+  .therapist-modal-photo {
+    width: 90px;
+    height: 90px;
+  }
+
+  .therapist-modal-header h2 {
+    font-size: 26px;
+  }
+
+  .therapist-modal-content {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
